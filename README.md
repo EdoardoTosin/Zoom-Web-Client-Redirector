@@ -1,4 +1,4 @@
-## ![image](/icons/48.png =24x24) Zoom Web Client Redirector
+## ![image](/icons/48.png | width=24) Zoom Web Client Redirector
 
 <img src="/icons/48.png" alt="drawing" width="24"/>
 
