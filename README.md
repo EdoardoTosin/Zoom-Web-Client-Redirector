@@ -2,14 +2,14 @@
 
 ## Table of contents
 * [Description](#description)
-* [Install](#install)
+* [Install Addon](#install-addon)
 * [Contacts](#contacts)
 
 ## Description
 Simple addon do redirect zoom meetings to the web client version.
 
-## Install
-* [Firefox Addon](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/) (in review phase)
+## Install Addon
+* [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/) (in review phase)
 * Google Chrome (in review phase)
 * Microsoft Edge (in review phase)
 
