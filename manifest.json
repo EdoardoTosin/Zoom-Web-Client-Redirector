@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Zoom Web Client Redirector",
+  "version": "1.0",
+
+  "description": "Redirect Zoom meetings to the web client version.",
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.zoom.us/*"],
+      "js": ["zoom-web-client-redirector.js"]
+    }
+  ]
+
+}
