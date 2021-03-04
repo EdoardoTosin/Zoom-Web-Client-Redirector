@@ -9,7 +9,7 @@
 Simple addon do redirect zoom meetings to the web client version.
 
 ## Install
-* [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/zoom-web-client-redirector/)
+* [Firefox Addon](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/)
 
 ## Contacts
 Created by [Edoardo Tosin](https://github.com/EdoardoTosin)
