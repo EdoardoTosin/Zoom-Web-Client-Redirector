@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
-  "version": "1.2.0",
+  "version": "1.3.0",
 
   "description": "Redirect Zoom meetings to the web client version.",
 
@@ -15,14 +15,16 @@
   },
 
   "permissions": [
-	   "tabs",
-     "*://*.zoom.us/*"
+     "*://*.zoom.us/*",
+     "*://*.zoomgov.us/*",
+     "*://*.zoom.com/*",
+     "*://*.zoomgov.com/*"
   ],
 
   "content_scripts": [
     {
-      "matches": ["*://*.zoom.us/*"],
-      "js": ["zoom-web-client-redirector.js"]
+      "matches": ["*://*.zoom.us/*","*://*.zoom.com/*","*://*.zoomgov.us/*","*://*.zoomgov.com/*"],
+      "js": ["background.js"]
     }
   ]
 
