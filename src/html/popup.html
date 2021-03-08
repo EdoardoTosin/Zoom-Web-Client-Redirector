@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/style.css">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <div class="title">
+    <div class="header">
       <h3>Zoom Web Client Redirector</h3>
     </div>
     <div class="toggle-btn">
-      <input type="checkbox" id="toggle" class="checkbox"/>
+      <input type="checkbox" id="toggle" class="checkbox" name="mycheckbox" value="yes"/>
       <label for="toggle" class="switch"></label>
     </div>
+
+    <script type="text/javascript" src="/js/background.js">
+
+      function isChecked() {
+        return document.getElementById('toggle').checked == true;
+      };
+
+      window.onload = function saveStatus() {
+        var checkbox = document.getElementById('toggle');
+        localStorage.setItem(checkbox.value, checkbox.checked);
+      };
+
+      function loadStatus() {
+        var checkbox = document.getElementById('toggle');
+        checkbox.checked = localStorage.getItem(checkbox.value) === 'true' ? true : false;
+
+        if (checkbox.checked) {
+          redirect();
+        }
+      };
+
+    </script>
   </body>
   <html>
