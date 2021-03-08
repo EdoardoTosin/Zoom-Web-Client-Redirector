@@ -3,6 +3,7 @@
 if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
   localStorage.setItem("toggleStatus", true);
 }
+
 var checkbox = document.getElementById('toggle');
 checkbox.addEventListener('change', function() {
   if (this.checked) {
@@ -16,6 +17,7 @@ checkbox.addEventListener('change', function() {
     this.removeAttribute("checked");
   }
 })();
+
 if (localStorage.getItem('toggleStatus') == true){
   redirect();
 }
