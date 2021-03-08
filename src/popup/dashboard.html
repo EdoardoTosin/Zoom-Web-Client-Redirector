@@ -8,6 +8,11 @@
           redirect();
         }
       });
+      $("#toggle :checkbox").on("change", function(){
+        if(this.checked)
+          redirect();
+      });
+
       /*
       var statusSwitch = document.getElementById("switch");
       if(statusSwitch) redirect();

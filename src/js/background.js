@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zoom Web Client Redirector
 // @namespace    https://zoom.us
-// @version      1.3.1
+// @version      2.0.0
 // @description  Redirect Zoom meetings to the web client version
 // @author       Edoardo Tosin
 // @license      MIT License
