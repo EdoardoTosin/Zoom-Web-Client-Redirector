@@ -15,14 +15,16 @@
     <script type="text/javascript">
       var checkbox = document.getElementById('toggle');
       if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
-        //localStorage.setItem("toggleStatus", false);
+        localStorage.setItem("toggleStatus", true);
       }
       checkbox.addEventListener('change', function() {
         if (this.checked) {
+          this.setAttribute("checked", "checked");
           checkbox.checked = true;
           localStorage.setItem("toggleStatus", true);
         }
         else {
+          this.removeAttribute("checked")
           checkbox.checked = false;
           localStorage.setItem("toggleStatus", false);
         }
