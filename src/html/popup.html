@@ -9,10 +9,10 @@
       <h3>Zoom Web Client Redirector</h3>
     </div>
     <div class="toggle-btn">
-      <input type="checkbox" id="toggle" class="mycheckbox"/>
+      <input type="checkbox" id="toggle" class="mycheckbox" value="checked"/>
       <label for="toggle" class="switch"></label>
     </div>
-    <script type="text/javascript">
+    <script type="text/javascript" src="../js/background.js">
       var checkbox = document.getElementById('toggle');
       if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
         localStorage.setItem("toggleStatus", true);
@@ -29,6 +29,9 @@
           this.removeAttribute("checked");
         }
       });
+      if (localStorage.getItem('toggleStatus') == false){
+        loadJS('../js/background.js');
+      }
       /*
       var status = localStorage.getItem('toggleStatus');
       if (status != true && status != false) {
