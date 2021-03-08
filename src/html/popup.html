@@ -19,16 +19,16 @@
       }
       checkbox.addEventListener('change', function() {
         if (this.checked) {
-          this.setAttribute("checked", "checked");
           checkbox.checked = true;
           localStorage.setItem("toggleStatus", true);
+          this.setAttribute("checked", "checked");
         }
         else {
-          this.removeAttribute("checked")
           checkbox.checked = false;
           localStorage.setItem("toggleStatus", false);
+          this.removeAttribute("checked");
         }
-    });
+      });
       /*
       var status = localStorage.getItem('toggleStatus');
       if (status != true && status != false) {
