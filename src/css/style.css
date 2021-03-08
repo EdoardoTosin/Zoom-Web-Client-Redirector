@@ -31,11 +31,9 @@
   display : none;
 }
 
-div class="title"{
+h3 {
+		min-width: 120px;
+		text-align: center;
     font-style: normal;
     font-family: system-ui;
-    border: 5px solid black;
-    width: 80px;
-    overflow: hidden;
-    white-space: nowrap;
 }
