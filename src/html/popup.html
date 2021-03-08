@@ -1,42 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/background.js">
-      $('#toggle').change(function(){
-        if(this.checked) {
-          redirect();
-        }
-      });
-      $("#toggle :checkbox").on("change", function(){
-        saveState();
-        if(this.checked)
-          redirect();
-      });
-    </script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <div class="title">
       <h3>Zoom Web Client Redirector</h3>
     </div>
-  </body>
-  <body>
-    <input type="checkbox" id="toggle" class="checkbox" state="loadState()"/>
-    <label for="toggle" class="switch"></label>
-    <script>
-      var i, checkboxes = document.querySelectorAll('input[type=checkbox]');
-
-      function saveState() {
-        for (i = 0; i < checkboxes.length; i++) {
-            localStorage.setItem(checkboxes[i].value, checkboxes[i].checked);
-        }
-      }
-
-      function loadState() {
-        for (i = 0; i < checkboxes.length; i++) {
-            checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
-        }
-      }
-    </script>
+    <div class="toggle-btn">
+      <input type="checkbox" id="toggle" class="checkbox"/>
+      <label for="toggle" class="switch"></label>
+    </div>
   </body>
   <html>

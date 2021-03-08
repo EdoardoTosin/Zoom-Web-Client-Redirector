@@ -1,5 +1,5 @@
 
-
+//Replace */j/* on zoom domain with */wc/join/*
 (function redirect() {
     if (window.location.pathname.substring(0,3) == "/j/") {
       const domain = window.location.hostname;

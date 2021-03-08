@@ -1,3 +1,16 @@
+html {
+	background-color: #464646;
+	border-radius: 30px;
+}
+
+h3 {
+	color: #2d8cff;
+	min-width: 120px;
+	text-align: center;
+	font-style: normal;
+	font-family: system-ui;
+}
+
 .switch {
 	left: 50%;
 	margin-left: -43px;
@@ -7,7 +20,7 @@
   height: 40px;
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 .switch::after {
   content: '';
@@ -29,11 +42,4 @@
 }
 .checkbox {
   display : none;
-}
-
-h3 {
-	min-width: 120px;
-	text-align: center;
-	font-style: normal;
-	font-family: system-ui;
 }

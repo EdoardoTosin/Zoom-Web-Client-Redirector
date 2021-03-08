@@ -1,11 +1,8 @@
 {
-
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
-  "version": "2.0.1",
-
+  "version": "2.0.2",
   "description": "Redirect Zoom meetings to the web client version.",
-
   "icons": {
     "16": "icons/16x16.png",
     "32": "icons/32x32.png",
@@ -13,23 +10,30 @@
     "128": "icons/128x128.png",
     "256": "icons/256x256.png"
   },
-
   "permissions": [
+    "storage",
     "activeTab",
     "*://*.zoom.us/*",
     "*://*.zoomgov.us/*",
     "*://*.zoom.com/*",
     "*://*.zoomgov.com/*"
   ],
-
   "content_scripts": [
     {
-      "matches": ["*://*.zoom.us/*","*://*.zoom.com/*","*://*.zoomgov.us/*","*://*.zoomgov.com/*"],
-      "js": ["js/background.js"],
-      "css": ["css/style.css"]
+      "matches": [
+        "*://*.zoom.us/*",
+        "*://*.zoom.com/*",
+        "*://*.zoomgov.us/*",
+        "*://*.zoomgov.com/*"
+      ],
+      "js": [
+        "js/background.js"
+      ],
+      "css": [
+        "css/style.css"
+      ]
     }
   ],
-
   "browser_action": {
     "browser_style": true,
     "default_icon": {
@@ -40,5 +44,4 @@
     "default_title": "Zoom Web Client Redirector",
     "default_popup": "html/popup.html"
   }
-
 }
