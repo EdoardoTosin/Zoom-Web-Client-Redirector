@@ -25,7 +25,7 @@
   left : 45px;
 }
 .checkbox:checked + .switch {
-  background-color: #7983ff;
+  background-color: #2d8cff;
 }
 .checkbox {
   display : none;
