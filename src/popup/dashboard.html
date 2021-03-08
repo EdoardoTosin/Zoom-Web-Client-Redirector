@@ -9,26 +9,10 @@
         }
       });
       $("#toggle :checkbox").on("change", function(){
+        saveState();
         if(this.checked)
           redirect();
       });
-
-      /*
-      var statusSwitch = document.getElementById("switch");
-      if(statusSwitch) redirect();
-      $(function() {
-        $('#switch').bootstrapToggle();
-      })
-      function toggleOn() {
-        $('#switch').bootstrapToggle('on')
-        redirect();
-      }
-      $(function() {
-        $('#switch').change(function() {
-          $('#console-event').html('Toggle: ' + $(this).prop('checked'))
-        })
-      })
-      */
     </script>
   </head>
   <body>
@@ -38,8 +22,23 @@
   </body>
   <body>
     <label class="toggle-btn">
-      <input type="checkbox" id="toggle" class="checkbox" checked/>
+      <input type="checkbox" id="toggle" class="checkbox" state="loadState()"/>
         <label for="toggle" class="switch"></label>
     </label>
+    <script>
+      var i, checkboxes = document.querySelectorAll('input[type=checkbox]');
+
+      function saveState() {
+        for (i = 0; i < checkboxes.length; i++) {
+            localStorage.setItem(checkboxes[i].value, checkboxes[i].checked);
+        }
+      }
+
+      function loadState() {
+        for (i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
+        }
+      }
+    </script>
   </body>
   <html>
