@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/background.js">
+      $('#toggle').change(function(){
+        if(this.checked) {
+          redirect();
+        }
+      });
+      /*
+      var statusSwitch = document.getElementById("switch");
+      if(statusSwitch) redirect();
+      $(function() {
+        $('#switch').bootstrapToggle();
+      })
+      function toggleOn() {
+        $('#switch').bootstrapToggle('on')
+        redirect();
+      }
+      $(function() {
+        $('#switch').change(function() {
+          $('#console-event').html('Toggle: ' + $(this).prop('checked'))
+        })
+      })
+      */
+    </script>
+  </head>
+  <body>
+    <div class="title" style="min-width: 100px; text-align: center;">
+      <h3>Zoom Web Client Redirector</h3>
+    </div>
+  </body>
+  <body>
+    <label class="toggle-btn">
+      <input type="checkbox" id="toggle" class="checkbox" />
+        <label for="toggle" class="switch"></label>
+    </label>
+  </body>
+  <html>
