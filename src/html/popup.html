@@ -9,10 +9,38 @@
       <h3>Zoom Web Client Redirector</h3>
     </div>
     <div class="toggle-btn">
-      <input type="checkbox" id="toggle" class="checkbox" name="mycheckbox" value="yes"/>
+      <input type="checkbox" id="toggle" class="mycheckbox"/>
       <label for="toggle" class="switch"></label>
     </div>
-
+    <script type="text/javascript">
+      var checkbox = document.getElementById('toggle');
+      if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
+        //localStorage.setItem("toggleStatus", false);
+      }
+      checkbox.addEventListener('change', function() {
+        if (this.checked) {
+          checkbox.checked = true;
+          localStorage.setItem("toggleStatus", true);
+        }
+        else {
+          checkbox.checked = false;
+          localStorage.setItem("toggleStatus", false);
+        }
+    });
+      /*
+      var status = localStorage.getItem('toggleStatus');
+      if (status != true && status != false) {
+        //localStorage.setItem("toggleStatus", document.getElementById('toggle').checked);
+        status.innerHTML = "checked";
+        localStorage.setItem("toggleStatus", true);
+        document.setItem("toggleStatus", true);
+      }
+      else {
+        document.setElementById('toggle').checked = localStorage.getItem("toggleStatus");
+      }
+      */
+    </script>
+    <!-->
     <script type="text/javascript" src="../js/background.js">
 
       function isChecked() {
@@ -20,12 +48,12 @@
       };
 
       window.onload = function saveStatus() {
-        var checkbox = document.getElementById('toggle');
-        localStorage.setItem(checkbox.value, checkbox.checked);
+        var checkbox = document.getElementById('toggle').checked;
+        localStorage.setItem(checkbox.value, checkbox.isChecked());
       };
 
       function loadStatus() {
-        var checkbox = document.getElementById('toggle');
+        var checkbox = document.getElementById('toggle').checked;
         checkbox.checked = localStorage.getItem(checkbox.value) === 'true' ? true : false;
 
         if (checkbox.checked) {
@@ -34,5 +62,6 @@
       };
 
     </script>
+    <!-->
   </body>
   <html>

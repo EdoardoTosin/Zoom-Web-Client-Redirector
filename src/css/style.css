@@ -33,12 +33,12 @@ h3 {
   transition: all 0.25s;
 }
 
-.checkbox:checked + .switch::after {
+.mycheckbox:checked + .switch::after {
   left : 36px;
 }
-.checkbox:checked + .switch {
+.mycheckbox:checked + .switch {
   background-color: #2d8cff;
 }
-.checkbox {
+.mycheckbox {
   display : none;
 }
