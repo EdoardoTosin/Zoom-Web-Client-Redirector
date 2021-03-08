@@ -38,7 +38,7 @@
       "48": "icons/48x48.png"
     },
     "default_title": "Zoom Web Client Redirector",
-    "default_popup": "popup/dashboard.html"
+    "default_popup": "html/popup.html"
   }
 
 }
