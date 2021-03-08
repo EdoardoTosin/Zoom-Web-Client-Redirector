@@ -8,65 +8,8 @@
     <div class="header">
       <h3>Zoom Web Client Redirector</h3>
     </div>
-    <div class="toggle-btn">
-      <input type="checkbox" id="toggle" class="mycheckbox" value="checked"/>
-      <label for="toggle" class="switch"></label>
-    </div>
-    <script type="text/javascript" src="../js/background.js">
-      if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
-        localStorage.setItem("toggleStatus", true);
-      }
-      var checkbox = document.getElementById('toggle');
-      checkbox.addEventListener('change', function() {
-        if (this.checked) {
-          checkbox.checked = true;
-          localStorage.setItem("toggleStatus", true);
-          //this.setAttribute("checked", "checked");
-        }
-        else {
-          checkbox.checked = false;
-          localStorage.setItem("toggleStatus", false);
-          //this.removeAttribute("checked");
-        }
-      });
-      if (localStorage.getItem('toggleStatus') == true){
-        loadJS('../js/background.js');
-      }
-      /*
-      var status = localStorage.getItem('toggleStatus');
-      if (status != true && status != false) {
-        //localStorage.setItem("toggleStatus", document.getElementById('toggle').checked);
-        status.innerHTML = "checked";
-        localStorage.setItem("toggleStatus", true);
-        document.setItem("toggleStatus", true);
-      }
-      else {
-        document.setElementById('toggle').checked = localStorage.getItem("toggleStatus");
-      }
-      */
-    </script>
-    <!-->
-    <script type="text/javascript" src="../js/background.js">
-
-      function isChecked() {
-        return document.getElementById('toggle').checked == true;
-      };
-
-      window.onload = function saveStatus() {
-        var checkbox = document.getElementById('toggle').checked;
-        localStorage.setItem(checkbox.value, checkbox.isChecked());
-      };
-
-      function loadStatus() {
-        var checkbox = document.getElementById('toggle').checked;
-        checkbox.checked = localStorage.getItem(checkbox.value) === 'true' ? true : false;
-
-        if (checkbox.checked) {
-          redirect();
-        }
-      };
-
-    </script>
-    <!-->
+    <input type="checkbox" id="toggle" class="mycheckbox" name="switch-btn" value="checked"/>
+    <label for="toggle" class="switch"></label>
+    <script type="text/javascript" src="../js/background.js"></script>
   </body>
   <html>
