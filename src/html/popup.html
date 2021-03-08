@@ -13,20 +13,20 @@
       <label for="toggle" class="switch"></label>
     </div>
     <script type="text/javascript" src="../js/background.js">
-      var checkbox = document.getElementById('toggle');
       if (localStorage.getItem('toggleStatus') != true && localStorage.getItem('toggleStatus') != false) {
         localStorage.setItem("toggleStatus", true);
       }
+      var checkbox = document.getElementById('toggle');
       checkbox.addEventListener('change', function() {
         if (this.checked) {
           checkbox.checked = true;
           localStorage.setItem("toggleStatus", true);
-          this.setAttribute("checked", "checked");
+          //this.setAttribute("checked", "checked");
         }
         else {
           checkbox.checked = false;
           localStorage.setItem("toggleStatus", false);
-          this.removeAttribute("checked");
+          //this.removeAttribute("checked");
         }
       });
       if (localStorage.getItem('toggleStatus') == true){
