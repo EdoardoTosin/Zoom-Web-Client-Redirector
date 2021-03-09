@@ -13,10 +13,14 @@ function changeElem() {
   }
 };
 
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('#toggle').addEventListener('change', changeElem);
+});
+/*
 function changeState(){
   document.getElementById('toggle').addEventListener("change", changeElem());
 };
-
+*/
 function changeLocal(){
   if ((typeof localStorage.getItem("toggleStatus")===typeof undefined) || (localStorage.getItem("toggleStatus")==null) || (localStorage.getItem("toggleStatus")=="true")){
     localStorage.setItem("toggleStatus", true);
