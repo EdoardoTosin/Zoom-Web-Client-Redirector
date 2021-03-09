@@ -14,7 +14,7 @@ checkbox.addEventListener("change", function(){
   if (this.checked){
     this.checked = true;
     localStorage.setItem("toggleStatus", true);
-    this.addAttribute("checked","");
+    this.setAttribute("checked","");
   }
   else{
     this.checked = false;
