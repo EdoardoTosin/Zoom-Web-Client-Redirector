@@ -16,16 +16,6 @@ function changeStatus() {
 function changeState(){
   document.getElementById('toggle').addEventListener("change", changeStatus());
 };
-/*
-(function checkLocal(){
-  localStorage.getItem('toggleStatus').addEventListener("change", changeLocal());
-})();
-*/
-/*
-if (localStorage.getItem('toggleStatus') == true){
-  redirect();
-};
-*/
 
 function changeLocal(){
   if ((typeof localStorage.getItem("toggleStatus")=== typeof undefined) || (localStorage.getItem("toggleStatus")===null) || (localStorage.getItem("toggleStatus")==true)){
@@ -38,6 +28,12 @@ function changeLocal(){
     document.getElementById('toggle').removeAttribute("checked");
   }
 };
+
+/*
+(function checkLocal(){
+  localStorage.getItem('toggleStatus').addEventListener("change", changeLocal());
+})();
+*/
 
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
