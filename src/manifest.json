@@ -31,9 +31,6 @@
       ],
       "css": [
         "css/style.css"
-      ],
-      "html": [
-        "html/popup.html"
       ]
     }
   ],
