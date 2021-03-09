@@ -7,10 +7,11 @@ if (localStorage.getItem('toggleStatus') == false){
 else if (localStorage.getItem('toggleStatus') != false){
   localStorage.setItem("toggleStatus", true);
   document.getElementById('toggle').setAttribute("checked", "");
+  redirect();
 }
 
 var checkbox = document.getElementById('toggle');
-checkbox.addEventListener("change", function(){
+checkbox.addEventListener('change', function(){
   if (this.checked){
     this.checked = true;
     localStorage.setItem("toggleStatus", true);
@@ -22,10 +23,6 @@ checkbox.addEventListener("change", function(){
     this.removeAttribute("checked");
   }
 });
-
-if (localStorage.getItem('toggleStatus') == true){
-  redirect();
-}
 
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
