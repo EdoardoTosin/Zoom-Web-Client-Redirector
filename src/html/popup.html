@@ -19,7 +19,7 @@
       var existing = localStorage.getItem('toggleStatus');
       var data = existing ? existing + '' : true;
       localStorage.setItem("toggleStatus", data);
-      if (data){
+      if (data=="true"){
         document.getElementById('toggle').setAttribute("checked", "");
       }
       else{
