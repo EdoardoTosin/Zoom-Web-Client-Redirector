@@ -27,17 +27,6 @@ if (localStorage.getItem('toggleStatus') == true){
 };
 */
 
-//Replace */j/* on zoom domain with */wc/join/*
-(function redirect(){
-    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus') != false) {
-      const domain = window.location.hostname;
-      const path = "/wc/join/" + window.location.pathname.substring(3);
-      window.location.href = "https://" + domain + path;
-    }
-})();
-
-
-
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
     (function changeLocal(){
@@ -52,3 +41,17 @@ window.addEventListener("load", function(event) {
       }
     })();
 });
+
+//Replace */j/* on zoom domain with */wc/join/*
+(function redirect(){
+    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus') != false) {
+      const domain = window.location.hostname;
+      const path = "/wc/join/" + window.location.pathname.substring(3);
+      window.location.href = "https://" + domain + path;
+    }
+})();
+
+window.addEventListener("storage", function () {
+    // do your checks to detect
+    // changes in "e1", "e2" & "e3" here
+}, false);
