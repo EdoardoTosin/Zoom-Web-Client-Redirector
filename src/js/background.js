@@ -1,15 +1,17 @@
 
-
-if (localStorage.getItem('toggleStatus') == false){
-  localStorage.setItem("toggleStatus", false);
-  document.getElementById('toggle').removeAttribute("checked");
-}
-else if (localStorage.getItem('toggleStatus') != false){
-  localStorage.setItem("toggleStatus", true);
-  document.getElementById('toggle').setAttribute("checked", "");
-}
-
 var checkbox = document.getElementById('toggle');
+var local = localStorage.getItem('toggleStatus');
+if (!local || local == true){
+  document.getElementById("toggle").setAttribute("checked","");
+  localStorage.setItem("toggleStatus", true);
+  checkbox.setAttribute("checked", "");
+}
+else if (local == false){
+  document.getElementById("toggle").setAttribute("unchecked","");
+  localStorage.setItem("toggleStatus", false);
+  checkbox.removeAttribute("checked");
+}
+
 checkbox.addEventListener("change", function(){
   if (this.checked){
     this.checked = true;
