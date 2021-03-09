@@ -52,6 +52,5 @@ window.addEventListener("load", function(event) {
 })();
 
 window.addEventListener("storage", function () {
-    // do your checks to detect
-    // changes in "e1", "e2" & "e3" here
+    
 }, false);
