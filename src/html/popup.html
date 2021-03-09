@@ -11,8 +11,24 @@
     <div class="header">
       <h3>Zoom Web Client Redirector</h3>
     </div>
-    <input type="checkbox" id="toggle" class="mycheckbox" value="checked"/>
+    <script type="text/javascript" src="../js/background.js">
+      window.onload = lastState();
+    </script>
+    <div onload="lastState()">
+    </div>
+    <script>
+      if (localStorage.getItem('toggleStatus') != false){
+        if (!localStorage.getItem('toggleStatus')){
+          localStorage.setItem("toggleStatus", true);
+        }
+        document.getElementById('toggle').setAttribute("checked", "");
+      }
+      else if (localStorage.getItem('toggleStatus') == false){
+        localStorage.setItem("toggleStatus", false);
+        document.getElementById('toggle').removeAttribute("checked");
+      }
+    </script>
+    <input onload="lastState()" type="checkbox" id="toggle" class="mycheckbox" onchange="changeState()" value="checked"/>
     <label for="toggle" class="switch"></label>
-    <script type="text/javascript" src="../js/background.js"></script>
   </body>
 </html>
