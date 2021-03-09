@@ -18,6 +18,9 @@
     "*://*.zoom.com/*",
     "*://*.zoomgov.com/*"
   ],
+  "background": {
+    "page": "html/popup.html"
+  },
   "content_scripts": [
     {
       "matches": [
