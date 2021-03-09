@@ -44,7 +44,7 @@ window.addEventListener("storage", function () {
 
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
-    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus') != false) {
+    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus')=="true") {
       const domain = window.location.hostname;
       const path = "/wc/join/" + window.location.pathname.substring(3);
       window.location.href = "https://" + domain + path;
