@@ -27,20 +27,26 @@ if (localStorage.getItem('toggleStatus') == true){
 };
 */
 
+function changeLocal(){
+  if ((typeof localStorage.getItem("toggleStatus")=== typeof undefined) || (localStorage.getItem("toggleStatus")===null) || (localStorage.getItem("toggleStatus")==true)){
+    alert("True");
+    localStorage.setItem("toggleStatus", true);
+    document.getElementById('toggle').setAttribute("checked","");
+  }
+  else if (localStorage.getItem("toggleStatus")==false){
+    alert("False");
+    document.getElementById('toggle').removeAttribute("checked");
+  }
+};
+
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
-    (function changeLocal(){
-      if ((typeof localStorage.getItem("toggleStatus")=== typeof undefined) || (localStorage.getItem("toggleStatus")===null) || (localStorage.getItem("toggleStatus")==true)){
-        alert("True");
-        localStorage.setItem("toggleStatus", true);
-        document.getElementById('toggle').setAttribute("checked","");
-      }
-      else if (localStorage.getItem("toggleStatus")==false){
-        alert("False");
-        document.getElementById('toggle').removeAttribute("checked");
-      }
-    })();
+    changeLocal();
 });
+
+window.addEventListener("storage", function () {
+  //Check
+}, false);
 
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
@@ -50,7 +56,3 @@ window.addEventListener("load", function(event) {
       window.location.href = "https://" + domain + path;
     }
 })();
-
-window.addEventListener("storage", function () {
-    
-}, false);
