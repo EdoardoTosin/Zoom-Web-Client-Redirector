@@ -45,6 +45,6 @@ function changeLocal(){
 };
 
 window.addEventListener("load", function(event) {
-    console.log("Tutte le risorse hanno terminato il caricamento!");
+    console.log("All resources finished loading.");
     changeLocal();
 });
