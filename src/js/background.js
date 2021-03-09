@@ -22,7 +22,8 @@ function changeState(){
 };
 */
 function changeLocal(){
-  if ((typeof localStorage.getItem("toggleStatus")===typeof undefined) || (localStorage.getItem("toggleStatus")==null) || (localStorage.getItem("toggleStatus")=="true")){
+  if (localStorage.getItem("toggleStatus")=="true"){
+    // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
