@@ -7,11 +7,10 @@ if (localStorage.getItem('toggleStatus') == false){
 else if (localStorage.getItem('toggleStatus') != false){
   localStorage.setItem("toggleStatus", true);
   document.getElementById('toggle').setAttribute("checked", "");
-  redirect();
 }
 
 var checkbox = document.getElementById('toggle');
-checkbox.addEventListener('change', function(){
+checkbox.addEventListener("change", function(){
   if (this.checked){
     this.checked = true;
     localStorage.setItem("toggleStatus", true);
@@ -24,9 +23,13 @@ checkbox.addEventListener('change', function(){
   }
 });
 
+if (localStorage.getItem('toggleStatus') == true){
+  redirect();
+}
+
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
-    if (window.location.pathname.substring(0,3) == "/j/") {
+    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus') == true) {
       const domain = window.location.hostname;
       const path = "/wc/join/" + window.location.pathname.substring(3);
       window.location.href = "https://" + domain + path;
