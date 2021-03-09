@@ -18,11 +18,13 @@ function changeStatus() {
 function changeState(){
   document.getElementById('toggle').addEventListener("change", changeStatus());
 };
+
 /*
 if (localStorage.getItem('toggleStatus') == true){
   redirect();
 };
 */
+
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
     if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus') != false) {
