@@ -4,12 +4,10 @@
 
 function changeStatus() {
   if (document.getElementById('toggle').checked){
-    document.getElementById('toggle').checked = true;
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else{
-    document.getElementById('toggle').checked = false;
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
   }
@@ -18,7 +16,11 @@ function changeStatus() {
 function changeState(){
   document.getElementById('toggle').addEventListener("change", changeStatus());
 };
-
+/*
+(function checkLocal(){
+  localStorage.getItem('toggleStatus').addEventListener("change", changeLocal());
+})();
+*/
 /*
 if (localStorage.getItem('toggleStatus') == true){
   redirect();
@@ -34,17 +36,19 @@ if (localStorage.getItem('toggleStatus') == true){
     }
 })();
 
-function changeLocal(){
-  if (localStorage.getItem("toggleStatus") != false){
-    localStorage.setItem("toggleStatus", true);
-    document.getElementById('toggle').setAttribute("checked","");
-  }
-  else {
-    document.getElementById('toggle').removeAttribute("checked");
-  }
-};
+
 
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
-    changeLocal();
+    (function changeLocal(){
+      if ((typeof localStorage.getItem("toggleStatus")==undefined) || (localStorage.getItem("toggleStatus")==null) || (localStorage.getItem("toggleStatus")==true)){
+        alert("True");
+        localStorage.setItem("toggleStatus", true);
+        document.getElementById('toggle').setAttribute("checked","");
+      }
+      else {
+        alert("False");
+        document.getElementById('toggle').removeAttribute("checked");
+      }
+    })();
 });
