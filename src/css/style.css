@@ -8,10 +8,6 @@ body {
   background-color: var(--background-color);
 }
 
-html {
-	/*background-color: #464646;*/
-}
-
 .header {
 	color: #2d8cff;
 	min-width: 120px;
