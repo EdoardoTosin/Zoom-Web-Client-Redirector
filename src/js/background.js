@@ -1,7 +1,4 @@
 
-//var checkbox = document.getElementById('toggle');
-//var local = localStorage.getItem('toggleStatus');
-
 function changeElem() {
   if (document.getElementById('toggle').checked){
     localStorage.setItem("toggleStatus", true);
@@ -16,11 +13,7 @@ function changeElem() {
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('#toggle').addEventListener('change', changeElem);
 });
-/*
-function changeState(){
-  document.getElementById('toggle').addEventListener("change", changeElem());
-};
-*/
+
 function changeLocal(){
   if (localStorage.getItem("toggleStatus")=="true"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
@@ -32,20 +25,10 @@ function changeLocal(){
   }
 };
 
-/*
-(function checkLocal(){
-  localStorage.getItem('toggleStatus').addEventListener("change", changeLocal());
-})();
-*/
-
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
     changeLocal();
 });
-
-window.addEventListener("storage", function () {
-  //Check
-}, false);
 
 //Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
