@@ -2,7 +2,7 @@
 //var checkbox = document.getElementById('toggle');
 //var local = localStorage.getItem('toggleStatus');
 
-function changeStatus() {
+function changeElem() {
   if (document.getElementById('toggle').checked){
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
@@ -14,7 +14,7 @@ function changeStatus() {
 };
 
 function changeState(){
-  document.getElementById('toggle').addEventListener("change", changeStatus());
+  document.getElementById('toggle').addEventListener("change", changeElem());
 };
 
 function changeLocal(){
