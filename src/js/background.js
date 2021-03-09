@@ -1,29 +1,25 @@
 
-var checkbox = document.getElementById('toggle');
-var local = localStorage.getItem('toggleStatus');
-if (!local || local == true){
-  document.getElementById("toggle").setAttribute("checked","");
-  localStorage.setItem("toggleStatus", true);
-  checkbox.setAttribute("checked", "");
-}
-else if (local == false){
-  document.getElementById("toggle").removeAttribute("checked");
-  localStorage.setItem("toggleStatus", false);
-  checkbox.removeAttribute("checked");
-}
+//var checkbox = document.getElementById('toggle');
+//var local = localStorage.getItem('toggleStatus');
 
-checkbox.addEventListener("change", function(){
-  if (this.checked){
-    this.checked = true;
+function changeStatus() {
+  if (document.getElementById('toggle').checked){
+    alert("Change State to checked");
+    document.getElementById('toggle').checked = true;
     localStorage.setItem("toggleStatus", true);
-    this.setAttribute("checked","");
+    document.getElementById('toggle').setAttribute("checked","");
   }
   else{
-    this.checked = false;
+    alert("Change State to unchecked");
+    document.getElementById('toggle').checked = false;
     localStorage.setItem("toggleStatus", false);
-    this.removeAttribute("checked");
+    document.getElementById('toggle').removeAttribute("checked");
   }
-});
+};
+
+function changeState(){
+  document.getElementById('toggle').addEventListener("change", changeStatus());
+};
 
 if (localStorage.getItem('toggleStatus') == true){
   redirect();
