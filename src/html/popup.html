@@ -19,14 +19,27 @@
     <input onload="lastState()" type="checkbox" id="toggle" class="mycheckbox" onchange="changeState()" value="checked"/>
     <label for="toggle" class="switch"></label>
     <script>
-      if (localStorage.getItem('toggleStatus') != false || localStorage.getItem('toggleStatus') == null || typeof localStorage.getItem('toggleStatus') == undefined){
-        localStorage.setItem("toggleStatus", true);
-        document.getElementById('toggle').setAttribute("checked", "");
-      }
-      else if (localStorage.getItem('toggleStatus') == false){
-        localStorage.setItem("toggleStatus", false);
-        document.getElementById('toggle').removeAttribute("checked");
-      }
+    var existing = localStorage.getItem('toggleStatus');
+    var data = existing ? existing + '' : true;
+    localStorage.setItem("toggleStatus", data);
+    if (data){
+      alert("True");
+      document.getElementById('toggle').setAttribute("checked", "");
+    }
+    else{
+      alert("False");
+      document.getElementById('toggle').removeAttribute("checked");
+    }
+    /*
+    if (localStorage.getItem('toggleStatus') != false || localStorage.getItem('toggleStatus') == null || typeof localStorage.getItem('toggleStatus') == undefined){
+      localStorage.setItem("toggleStatus", true);
+      document.getElementById('toggle').setAttribute("checked", "");
+    }
+    else if (localStorage.getItem('toggleStatus') == false){
+      localStorage.setItem("toggleStatus", false);
+      document.getElementById('toggle').removeAttribute("checked");
+    }
+    */
     </script>
   </body>
 </html>
