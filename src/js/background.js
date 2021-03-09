@@ -41,12 +41,12 @@ if (localStorage.getItem('toggleStatus') == true){
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
     (function changeLocal(){
-      if ((typeof localStorage.getItem("toggleStatus")==undefined) || (localStorage.getItem("toggleStatus")==null) || (localStorage.getItem("toggleStatus")==true)){
+      if ((typeof localStorage.getItem("toggleStatus")=== typeof undefined) || (localStorage.getItem("toggleStatus")===null) || (localStorage.getItem("toggleStatus")==true)){
         alert("True");
         localStorage.setItem("toggleStatus", true);
         document.getElementById('toggle').setAttribute("checked","");
       }
-      else {
+      else if (localStorage.getItem("toggleStatus")==false){
         alert("False");
         document.getElementById('toggle').removeAttribute("checked");
       }
