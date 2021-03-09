@@ -11,25 +11,21 @@
     <div class="header">
       <h3>Zoom Web Client Redirector</h3>
     </div>
-    <script type="text/javascript" src="../js/background.js">
-      window.onload = lastState();
-    </script>
-    <div onload="lastState()">
-    </div>
+    <script type="text/javascript" src="../js/background.js"></script>
     <input onload="lastState()" type="checkbox" id="toggle" class="mycheckbox" onchange="changeState()" value="checked"/>
     <label for="toggle" class="switch"></label>
     <script>
-    var existing = localStorage.getItem('toggleStatus');
-    var data = existing ? existing + '' : true;
-    localStorage.setItem("toggleStatus", data);
-    if (data){
-      alert("True");
-      document.getElementById('toggle').setAttribute("checked", "");
-    }
-    else{
-      alert("False");
-      document.getElementById('toggle').removeAttribute("checked");
-    }
+    window.addEventListener("load", function(event) {
+      var existing = localStorage.getItem('toggleStatus');
+      var data = existing ? existing + '' : true;
+      localStorage.setItem("toggleStatus", data);
+      if (data){
+        document.getElementById('toggle').setAttribute("checked", "");
+      }
+      else{
+        document.getElementById('toggle').removeAttribute("checked");
+      }
+    });
     /*
     if (localStorage.getItem('toggleStatus') != false || localStorage.getItem('toggleStatus') == null || typeof localStorage.getItem('toggleStatus') == undefined){
       localStorage.setItem("toggleStatus", true);
