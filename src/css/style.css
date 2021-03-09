@@ -1,5 +1,15 @@
+/* style.css */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
 html {
-	background-color: #464646;
+	/*background-color: #464646;*/
 }
 
 .header {

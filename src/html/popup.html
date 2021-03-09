@@ -5,6 +5,27 @@
 	  <meta charset="utf-8">
     <meta name="Redirect Zoom meetings to the web client version" content="Zoom Web Client Redirector"/>
 		<meta name="Edoardo Tosin" content="Edoardo Tosin"/>
+    <script>
+      // If `prefers-color-scheme` is not supported, fall back to light mode.
+      // In this case, light.css will be downloaded with `highest` priority.
+      if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+            'beforeend',
+            '<link rel="stylesheet" href="../css/light.css" onload="document.documentElement.style.display = \'\'">'
+        );
+      }
+    </script>
+    <!--
+      Conditionally either load the light or the dark stylesheet. The matching file
+      will be downloaded with `highest`, the non-matching file with `lowest`
+      priority. If the browser doesn't support `prefers-color-scheme`, the media
+      query is unknown and the files are downloaded with `lowest` priority (but
+      above I already force `highest` priority for my default light experience).
+    -->
+    <link rel="stylesheet" href="../css/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="../css/light.css" media="(prefers-color-scheme: light)">
+    <!-- The main stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
@@ -16,27 +37,17 @@
     <label for="toggle" class="switch"></label>
     <br><br>
     <script>
-    window.addEventListener("load", function(event) {
-      var existing = localStorage.getItem('toggleStatus');
-      var data = existing ? existing + '' : true;
-      localStorage.setItem("toggleStatus", data);
-      if (data=="true"){
-        document.getElementById('toggle').setAttribute("checked", "");
-      }
-      else{
-        document.getElementById('toggle').removeAttribute("checked");
-      }
-    });
-    /*
-    if (localStorage.getItem('toggleStatus') != false || localStorage.getItem('toggleStatus') == null || typeof localStorage.getItem('toggleStatus') == undefined){
-      localStorage.setItem("toggleStatus", true);
-      document.getElementById('toggle').setAttribute("checked", "");
-    }
-    else if (localStorage.getItem('toggleStatus') == false){
-      localStorage.setItem("toggleStatus", false);
-      document.getElementById('toggle').removeAttribute("checked");
-    }
-    */
+      window.addEventListener("load", function(event) {
+        var existing = localStorage.getItem('toggleStatus');
+        var data = existing ? existing + '' : true;
+        localStorage.setItem("toggleStatus", data);
+        if (data=="true"){
+          document.getElementById('toggle').setAttribute("checked", "");
+        }
+        else{
+          document.getElementById('toggle').removeAttribute("checked");
+        }
+      });
     </script>
   </body>
 </html>
