@@ -19,12 +19,10 @@ function changeState(){
 
 function changeLocal(){
   if ((typeof localStorage.getItem("toggleStatus")===typeof undefined) || (localStorage.getItem("toggleStatus")==null) || (localStorage.getItem("toggleStatus")=="true")){
-    alert("True");
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else if (localStorage.getItem("toggleStatus")=="false"){
-    alert("False");
     document.getElementById('toggle').removeAttribute("checked");
   }
 };
