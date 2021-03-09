@@ -7,7 +7,7 @@ if (!local || local == true){
   checkbox.setAttribute("checked", "");
 }
 else if (local == false){
-  document.getElementById("toggle").setAttribute("unchecked","");
+  document.getElementById("toggle").removeAttribute("checked");
   localStorage.setItem("toggleStatus", false);
   checkbox.removeAttribute("checked");
 }
