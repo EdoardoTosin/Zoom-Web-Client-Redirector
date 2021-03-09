@@ -7,7 +7,6 @@
 		<meta name="Edoardo Tosin" content="Edoardo Tosin"/>
     <script>
       // If `prefers-color-scheme` is not supported, fall back to light mode.
-      // In this case, light.css will be downloaded with `highest` priority.
       if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
         document.documentElement.style.display = 'none';
         document.head.insertAdjacentHTML(
@@ -16,16 +15,10 @@
         );
       }
     </script>
-    <!--
-      Conditionally either load the light or the dark stylesheet. The matching file
-      will be downloaded with `highest`, the non-matching file with `lowest`
-      priority. If the browser doesn't support `prefers-color-scheme`, the media
-      query is unknown and the files are downloaded with `lowest` priority (but
-      above I already force `highest` priority for my default light experience).
-    -->
+    <!-- Conditionally either load the light or the dark stylesheet. -->
     <link rel="stylesheet" href="../css/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="../css/light.css" media="(prefers-color-scheme: light)">
-    <!-- The main stylesheet -->
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
