@@ -23,9 +23,11 @@
     var data = existing ? existing + '' : true;
     localStorage.setItem("toggleStatus", data);
     if (data){
+      alert("True");
       document.getElementById('toggle').setAttribute("checked", "");
     }
     else{
+      alert("False");
       document.getElementById('toggle').removeAttribute("checked");
     }
     /*
