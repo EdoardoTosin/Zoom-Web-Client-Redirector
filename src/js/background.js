@@ -4,13 +4,11 @@
 
 function changeStatus() {
   if (document.getElementById('toggle').checked){
-    alert("Change State to checked");
     document.getElementById('toggle').checked = true;
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else{
-    alert("Change State to unchecked");
     document.getElementById('toggle').checked = false;
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
