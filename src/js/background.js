@@ -64,10 +64,12 @@ document.addEventListener('DOMContentLoaded', function () {
 function changeLocal(){
   if (localStorage.getItem("toggleStatus")!="false"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
+    activeIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else if (localStorage.getItem("toggleStatus")=="false"){
+    deactiveIcon();
     document.getElementById('toggle').removeAttribute("checked");
   }
 };
