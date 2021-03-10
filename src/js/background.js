@@ -1,3 +1,29 @@
+function activeIcon(){
+  chrome.browserAction.setIcon({
+      path: {
+        "16": "../icons/16x16.png",
+        "32": "../icons/32x32.png",
+        "48": "../icons/48x48.png",
+        "64": "../icons/64x64.png",
+        "128": "../icons/128x128.png",
+        "256": "../icons/256x256.png"
+      }
+  });
+};
+
+function deactiveIcon(){
+  chrome.browserAction.setIcon({
+      path: {
+        "16": "../icons/deactivated/16x16.png",
+        "32": "../icons/deactivated/32x32.png",
+        "48": "../icons/deactivated/48x48.png",
+        "64": "../icons/deactivated/64x64.png",
+        "128": "../icons/deactivated/128x128.png",
+        "256": "../icons/deactivated/256x256.png"
+      }
+  });
+};
+
 // Load checkbox status based on localStorage last state.
 window.addEventListener("load", function(event) {
   var existing = localStorage.getItem('toggleStatus');
@@ -5,42 +31,23 @@ window.addEventListener("load", function(event) {
   localStorage.setItem("toggleStatus", data);
   if (data=="true"){
     document.getElementById('toggle').setAttribute("checked", "");
+    activeIcon();
   }
   else{
     document.getElementById('toggle').removeAttribute("checked");
+    deactiveIcon();
   }
 });
 
 // Change localStorage "toggleStatus" value and extension icon when checkbox change state.
 function changeToggle() {
   if (document.getElementById('toggle').checked){
-    browser.browserAction.setIcon({
-        path: {
-          "16": "../icons/16x16.png",
-          "32": "../icons/32x32.png",
-          "48": "../icons/48x48.png",
-          "64": "../icons/64x64.png",
-          "128": "../icons/128x128.png",
-          "256": "../icons/256x256.png"
-        }
-    });
-
+    activeIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else{
-
-    browser.browserAction.setIcon({
-        path: {
-          "16": "../icons/deactivated/16x16.png",
-          "32": "../icons/deactivated/32x32.png",
-          "48": "../icons/deactivated/48x48.png",
-          "64": "../icons/deactivated/64x64.png",
-          "128": "../icons/deactivated/128x128.png",
-          "256": "../icons/deactivated/256x256.png"
-        }
-    });
-
+    deactiveIcon();
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
   }
@@ -53,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
 function changeLocal(){
-  if (localStorage.getItem("toggleStatus")=="true"){
+  if (localStorage.getItem("toggleStatus")!="false"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
