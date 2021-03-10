@@ -18,12 +18,12 @@ function activeIcon(){
 function deactiveIcon(){
   chrome.browserAction.setIcon({
       path: {
-        "16": "../icons/deactivated/16x16.png",
-        "32": "../icons/deactivated/32x32.png",
-        "48": "../icons/deactivated/48x48.png",
-        "64": "../icons/deactivated/64x64.png",
-        "128": "../icons/deactivated/128x128.png",
-        "256": "../icons/deactivated/256x256.png"
+        "16": "../icons/16x16-off.png",
+        "32": "../icons/32x32-off.png",
+        "48": "../icons/48x48-off.png",
+        "64": "../icons/64x64-off.png",
+        "128": "../icons/128x128-off.png",
+        "256": "../icons/256x256-off.png"
       }
   });
 };

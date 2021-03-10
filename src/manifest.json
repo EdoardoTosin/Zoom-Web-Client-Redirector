@@ -30,9 +30,6 @@
       ],
       "js": [
         "js/background.js"
-      ],
-      "css": [
-        "css/style.css"
       ]
     }
   ],
