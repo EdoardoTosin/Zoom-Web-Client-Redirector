@@ -11,13 +11,36 @@ window.addEventListener("load", function(event) {
   }
 });
 
-// Change localStorage "toggleStatus" value when checkbox change state.
-function changeElem() {
+// Change localStorage "toggleStatus" value and extension icon when checkbox change state.
+function changeToggle() {
   if (document.getElementById('toggle').checked){
+    browser.browserAction.setIcon({
+        path: {
+          "16": "../icons/16x16.png",
+          "32": "../icons/32x32.png",
+          "48": "../icons/48x48.png",
+          "64": "../icons/64x64.png",
+          "128": "../icons/128x128.png",
+          "256": "../icons/256x256.png"
+        }
+    });
+
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
   }
   else{
+
+    browser.browserAction.setIcon({
+        path: {
+          "16": "../icons/deactivated/16x16.png",
+          "32": "../icons/deactivated/32x32.png",
+          "48": "../icons/deactivated/48x48.png",
+          "64": "../icons/deactivated/64x64.png",
+          "128": "../icons/deactivated/128x128.png",
+          "256": "../icons/deactivated/256x256.png"
+        }
+    });
+
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
   }
@@ -25,7 +48,7 @@ function changeElem() {
 
 // If toggle change state it calls changeElem function.
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('#toggle').addEventListener('change', changeElem);
+  document.querySelector('#toggle').addEventListener('change', changeToggle);
 });
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
