@@ -16,9 +16,13 @@ a {
   background-color: var(--background-color);
 }
 
+h3  {
+  text-align: inherit;
+}
+
 .header {
 	color: #2d8cff;
-	min-width: 120px;
+	min-width: 200px;
 	text-align: center;
 	font-style: normal;
 	font-family: system-ui;
