@@ -12,7 +12,6 @@
   },
   "permissions": [
     "storage",
-    "activeTab",
     "*://*.zoom.us/*",
     "*://*.zoomgov.us/*",
     "*://*.zoom.com/*",
