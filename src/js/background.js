@@ -1,4 +1,4 @@
-//Load checkbox status based on localStorage last state.
+// Load checkbox status based on localStorage last state.
 window.addEventListener("load", function(event) {
   var existing = localStorage.getItem('toggleStatus');
   var data = existing ? existing + '' : true;
@@ -11,7 +11,7 @@ window.addEventListener("load", function(event) {
   }
 });
 
-//Change localStorage "toggleStatus" value when checkbox change state.
+// Change localStorage "toggleStatus" value when checkbox change state.
 function changeElem() {
   if (document.getElementById('toggle').checked){
     localStorage.setItem("toggleStatus", true);
@@ -23,12 +23,12 @@ function changeElem() {
   }
 };
 
-//If toggle change state it calls changeElem function.
+// If toggle change state it calls changeElem function.
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('#toggle').addEventListener('change', changeElem);
 });
 
-//Change checkbox status based on lodalStorage "toggleStatus" value
+// Change checkbox status based on lodalStorage "toggleStatus" value
 function changeLocal(){
   if (localStorage.getItem("toggleStatus")=="true"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
@@ -40,13 +40,13 @@ function changeLocal(){
   }
 };
 
-//When page load it cakks changeLocal function and print text in console.
+// When page load it cakks changeLocal function and print text in console.
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
     changeLocal();
 });
 
-//Replace */j/* on zoom domain with */wc/join/*
+// Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
     if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus')=="true") {
       const domain = window.location.hostname;
