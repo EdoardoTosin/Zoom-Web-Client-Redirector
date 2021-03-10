@@ -1,3 +1,4 @@
+// Change Icon with activate set.
 function activeIcon(){
   chrome.browserAction.setIcon({
       path: {
@@ -11,6 +12,7 @@ function activeIcon(){
   });
 };
 
+// Change Icon with deactivate set.
 function deactiveIcon(){
   chrome.browserAction.setIcon({
       path: {
