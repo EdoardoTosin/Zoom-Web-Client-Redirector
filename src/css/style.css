@@ -21,42 +21,42 @@ h3  {
 }
 
 .header {
-	color: #2d8cff;
-	min-width: 200px;
-	text-align: center;
-	font-style: normal;
-	font-family: system-ui;
+  color: #2d8cff;
+  min-width: 200px;
+  text-align: center;
+  font-style: normal;
+  font-family: system-ui;
 }
 
 .switch {
-	left: 50%;
-	margin-left: -30px;
-	position: relative;
-	display: inline-block;
-	width: 60px;
-	height: 30px;
-	background-color: rgba(0, 0, 0, 0.25);
-	border-radius: 30px;
-	transition: all 0.25s;
+  left: 50%;
+  margin-left: -30px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  transition: all 0.25s;
 }
 .switch::after {
-	content: '';
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	border-radius:50%;
-	background-color: white;
-	top: 5px;
-	left: 5px;
-	transition: all 0.25s;
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: white;
+  top: 5px;
+  left: 5px;
+  transition: all 0.25s;
 }
 
 .mycheckbox:checked + .switch::after {
-	left : 36px;
+  left : 36px;
 }
 .mycheckbox:checked + .switch {
-	background-color: #2d8cff;
+  background-color: #2d8cff;
 }
 .mycheckbox {
-	display : none;
+  display : none;
 }
