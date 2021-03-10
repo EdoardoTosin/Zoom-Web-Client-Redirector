@@ -1,3 +1,14 @@
+window.addEventListener("load", function(event) {
+  var existing = localStorage.getItem('toggleStatus');
+  var data = existing ? existing + '' : true;
+  localStorage.setItem("toggleStatus", data);
+  if (data=="true"){
+    document.getElementById('toggle').setAttribute("checked", "");
+  }
+  else{
+    document.getElementById('toggle').removeAttribute("checked");
+  }
+});
 
 function changeElem() {
   if (document.getElementById('toggle').checked){

@@ -5,16 +5,7 @@
 	  <meta charset="utf-8">
     <meta name="Redirect Zoom meetings to the web client version" content="Zoom Web Client Redirector"/>
 		<meta name="Edoardo Tosin" content="Edoardo Tosin"/>
-    <script>
-      // If `prefers-color-scheme` is not supported, fall back to light mode.
-      if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
-        document.documentElement.style.display = 'none';
-        document.head.insertAdjacentHTML(
-            'beforeend',
-            '<link rel="stylesheet" href="../css/light.css" onload="document.documentElement.style.display = \'\'">'
-        );
-      }
-    </script>
+    <script type="text/javascript" src="../js/style.js"></script>
     <!-- Conditionally either load the light or the dark stylesheet. -->
     <link rel="stylesheet" href="../css/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="../css/light.css" media="(prefers-color-scheme: light)">
@@ -26,21 +17,8 @@
       <h3>Zoom Web Client Redirector</h3>
     </div>
     <script type="text/javascript" src="../js/background.js"></script>
-    <input type="checkbox" id="toggle" class="mycheckbox" onchange="changeState()" value="checked"/>
+    <input type="checkbox" id="toggle" class="mycheckbox" value="checked"/>
     <label for="toggle" class="switch"></label>
     <br><br>
-    <script>
-      window.addEventListener("load", function(event) {
-        var existing = localStorage.getItem('toggleStatus');
-        var data = existing ? existing + '' : true;
-        localStorage.setItem("toggleStatus", data);
-        if (data=="true"){
-          document.getElementById('toggle').setAttribute("checked", "");
-        }
-        else{
-          document.getElementById('toggle').removeAttribute("checked");
-        }
-      });
-    </script>
   </body>
 </html>
