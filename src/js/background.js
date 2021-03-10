@@ -1,3 +1,5 @@
+//var status = "false";
+
 // Change Icon with activate set.
 function activeIcon(){
   chrome.browserAction.setIcon({
@@ -27,17 +29,19 @@ function deactiveIcon(){
 };
 
 // Load checkbox status based on localStorage last state.
-window.addEventListener("load", function(event) {
+document.addEventListener("load", function(event) {
   var existing = localStorage.getItem('toggleStatus');
   var data = existing ? existing + '' : true;
   localStorage.setItem("toggleStatus", data);
   if (data=="true"){
     document.getElementById('toggle').setAttribute("checked", "");
     activeIcon();
+    //status = "true";
   }
   else{
     document.getElementById('toggle').removeAttribute("checked");
     deactiveIcon();
+    //status = "false";
   }
 });
 
@@ -47,11 +51,13 @@ function changeToggle() {
     activeIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
+    //status = "true";
   }
   else{
     deactiveIcon();
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
+    //status = "false";
   }
 };
 
@@ -67,22 +73,24 @@ function changeLocal(){
     activeIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
+    //status = "true";
   }
   else if (localStorage.getItem("toggleStatus")=="false"){
     deactiveIcon();
     document.getElementById('toggle').removeAttribute("checked");
+    //status = "false";
   }
 };
 
 // When page load it calls changeLocal function and print text in console.
 window.addEventListener("load", function(event) {
-    console.log("Finished loading!");
+    console.log("Zoom WC Redirector finished loading!");
     changeLocal();
 });
 
 // Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
-    if (window.location.pathname.substring(0,3) == "/j/" && localStorage.getItem('toggleStatus')=="true") {
+    if (localStorage.getItem("toggleStatus")=="true" && window.location.pathname != null && window.location.pathname.substring(0,3) == "/j/") {
       const domain = window.location.hostname;
       const path = "/wc/join/" + window.location.pathname.substring(3);
       window.location.href = "https://" + domain + path;
