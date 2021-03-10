@@ -1,5 +1,65 @@
 //var status = "false";
 
+// When page load it calls changeLocal function and print text in console.
+window.addEventListener("load", function(event) {
+    console.log("Zoom WC Redirector finished loading!");
+    changeLocal();
+});
+
+// Load checkbox status based on localStorage last state.
+document.addEventListener("load", function(event) {
+  var existing = localStorage.getItem('toggleStatus');
+  var data = existing ? existing + '' : true;
+  localStorage.setItem("toggleStatus", data);
+  if (data=="true"){
+    document.getElementById('toggle').setAttribute("checked", "");
+    activeIcon();
+    //status = "true";
+  }
+  else{
+    document.getElementById('toggle').removeAttribute("checked");
+    deactiveIcon();
+    //status = "false";
+  }
+});
+
+// If toggle change state it calls changeElem function.
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('#toggle').addEventListener('change', changeToggle);
+});
+
+// Change localStorage "toggleStatus" value and extension icon when checkbox change state.
+function changeToggle() {
+  if (document.getElementById('toggle').checked){
+    activeIcon();
+    localStorage.setItem("toggleStatus", true);
+    document.getElementById('toggle').setAttribute("checked","");
+    //status = "true";
+  }
+  else{
+    deactiveIcon();
+    localStorage.setItem("toggleStatus", false);
+    document.getElementById('toggle').removeAttribute("checked");
+    //status = "false";
+  }
+};
+
+// Change checkbox status based on lodalStorage "toggleStatus" value
+function changeLocal(){
+  if (localStorage.getItem("toggleStatus")!="false"){
+    // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
+    activeIcon();
+    localStorage.setItem("toggleStatus", true);
+    document.getElementById('toggle').setAttribute("checked","");
+    //status = "true";
+  }
+  else if (localStorage.getItem("toggleStatus")=="false"){
+    deactiveIcon();
+    document.getElementById('toggle').removeAttribute("checked");
+    //status = "false";
+  }
+};
+
 // Change Icon with activate set.
 function activeIcon(){
   chrome.browserAction.setIcon({
@@ -27,66 +87,6 @@ function deactiveIcon(){
       }
   });
 };
-
-// Load checkbox status based on localStorage last state.
-document.addEventListener("load", function(event) {
-  var existing = localStorage.getItem('toggleStatus');
-  var data = existing ? existing + '' : true;
-  localStorage.setItem("toggleStatus", data);
-  if (data=="true"){
-    document.getElementById('toggle').setAttribute("checked", "");
-    activeIcon();
-    //status = "true";
-  }
-  else{
-    document.getElementById('toggle').removeAttribute("checked");
-    deactiveIcon();
-    //status = "false";
-  }
-});
-
-// Change localStorage "toggleStatus" value and extension icon when checkbox change state.
-function changeToggle() {
-  if (document.getElementById('toggle').checked){
-    activeIcon();
-    localStorage.setItem("toggleStatus", true);
-    document.getElementById('toggle').setAttribute("checked","");
-    //status = "true";
-  }
-  else{
-    deactiveIcon();
-    localStorage.setItem("toggleStatus", false);
-    document.getElementById('toggle').removeAttribute("checked");
-    //status = "false";
-  }
-};
-
-// If toggle change state it calls changeElem function.
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('#toggle').addEventListener('change', changeToggle);
-});
-
-// Change checkbox status based on lodalStorage "toggleStatus" value
-function changeLocal(){
-  if (localStorage.getItem("toggleStatus")!="false"){
-    // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
-    activeIcon();
-    localStorage.setItem("toggleStatus", true);
-    document.getElementById('toggle').setAttribute("checked","");
-    //status = "true";
-  }
-  else if (localStorage.getItem("toggleStatus")=="false"){
-    deactiveIcon();
-    document.getElementById('toggle').removeAttribute("checked");
-    //status = "false";
-  }
-};
-
-// When page load it calls changeLocal function and print text in console.
-window.addEventListener("load", function(event) {
-    console.log("Zoom WC Redirector finished loading!");
-    changeLocal();
-});
 
 // Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
