@@ -7,6 +7,15 @@ body {
   background-color: var(--background-color);
 }
 
+p {
+  text-align: center;
+}
+
+a {
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
 .header {
 	color: #2d8cff;
 	min-width: 120px;
