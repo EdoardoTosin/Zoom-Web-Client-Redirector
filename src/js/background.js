@@ -40,7 +40,7 @@ function changeLocal(){
   }
 };
 
-// When page load it cakks changeLocal function and print text in console.
+// When page load it calls changeLocal function and print text in console.
 window.addEventListener("load", function(event) {
     console.log("Finished loading!");
     changeLocal();
