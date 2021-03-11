@@ -8,9 +8,9 @@ window.addEventListener("load", function(event) {
 
 // Load checkbox status based on localStorage last state.
 document.addEventListener("load", function(event) {
-  var existing = localStorage.getItem('toggleStatus');
+  var existing = window.localStorage.getItem('toggleStatus');
   var data = existing ? existing + '' : true;
-  localStorage.setItem("toggleStatus", data);
+  window.localStorage.setItem("toggleStatus", data);
   if (data=="true"){
     document.getElementById('toggle').setAttribute("checked", "");
     setOnIcon();
@@ -32,13 +32,13 @@ document.addEventListener('DOMContentLoaded', function () {
 function changeToggle() {
   if (document.getElementById('toggle').checked){
     setOnIcon();
-    localStorage.setItem("toggleStatus", true);
+    window.localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
     //status = "true";
   }
   else{
     setOffIcon();
-    localStorage.setItem("toggleStatus", false);
+    window.localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
     //status = "false";
   }
@@ -46,14 +46,14 @@ function changeToggle() {
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
 function changeLocal(){
-  if (localStorage.getItem("toggleStatus")!="false"){
+  if (window.localStorage.getItem("toggleStatus")!="false"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
     setOnIcon();
-    localStorage.setItem("toggleStatus", true);
+    window.localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
     //status = "true";
   }
-  else if (localStorage.getItem("toggleStatus")=="false"){
+  else if (window.localStorage.getItem("toggleStatus")=="false"){
     setOffIcon();
     document.getElementById('toggle').removeAttribute("checked");
     //status = "false";
@@ -90,9 +90,9 @@ function setOffIcon(){
 
 // Replace */j/* on zoom domain with */wc/join/*
 (function redirect(){
-    if (/*localStorage.getItem("toggleStatus")=="true" && */window.location.pathname != null && window.location.pathname.substring(0,3) == "/j/") {
-      const domain = window.location.hostname;
-      const path = "/wc/join/" + window.location.pathname.substring(3);
-      window.location.href = "https://" + domain + path;
-    }
+  if (/*localStorage.getItem("toggleStatus")=="true" && */window.location.pathname != null && window.location.pathname.substring(0,3) == "/j/") {
+    const domain = window.location.hostname;
+    const path = "/wc/join/" + window.location.pathname.substring(3);
+    window.location.href = "https://" + domain + path;
+  }
 })();
