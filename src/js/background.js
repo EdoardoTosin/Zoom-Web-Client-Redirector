@@ -13,12 +13,12 @@ document.addEventListener("load", function(event) {
   localStorage.setItem("toggleStatus", data);
   if (data=="true"){
     document.getElementById('toggle').setAttribute("checked", "");
-    activeIcon();
+    setOnIcon();
     //status = "true";
   }
   else{
     document.getElementById('toggle').removeAttribute("checked");
-    deactiveIcon();
+    setOffIcon();
     //status = "false";
   }
 });
@@ -31,13 +31,13 @@ document.addEventListener('DOMContentLoaded', function () {
 // Change localStorage "toggleStatus" value and extension icon when checkbox change state.
 function changeToggle() {
   if (document.getElementById('toggle').checked){
-    activeIcon();
+    setOnIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
     //status = "true";
   }
   else{
-    deactiveIcon();
+    setOffIcon();
     localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
     //status = "false";
@@ -48,20 +48,20 @@ function changeToggle() {
 function changeLocal(){
   if (localStorage.getItem("toggleStatus")!="false"){
     // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
-    activeIcon();
+    setOnIcon();
     localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
     //status = "true";
   }
   else if (localStorage.getItem("toggleStatus")=="false"){
-    deactiveIcon();
+    setOffIcon();
     document.getElementById('toggle').removeAttribute("checked");
     //status = "false";
   }
 };
 
 // Change Icon with activate set.
-function activeIcon(){
+function setOnIcon(){
   chrome.browserAction.setIcon({
       path: {
         "16": "../icons/16x16.png",
@@ -75,7 +75,7 @@ function activeIcon(){
 };
 
 // Change Icon with deactivate set.
-function deactiveIcon(){
+function setOffIcon(){
   chrome.browserAction.setIcon({
       path: {
         "16": "../icons/16x16-off.png",
