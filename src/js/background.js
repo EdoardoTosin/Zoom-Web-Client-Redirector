@@ -1,9 +1,15 @@
-//var status = "false";
+var browser = (window.browser)? window.browser : window.chrome;
 
 // When page load it calls changeLocal function and print text in console.
 window.addEventListener("load", function(event) {
     console.log("Zoom WC Redirector finished loading!");
     changeLocal();
+    /*
+    browser.storage.local.set({"key": 'value'});
+    var savedvalue = "false";
+    browser.storage.local.get(['key'], function(result) {savedvalue = result.key});
+    console.log(savedvalue);
+    */
 });
 
 // Load checkbox status based on localStorage last state.
@@ -14,12 +20,10 @@ document.addEventListener("load", function(event) {
   if (data=="true"){
     document.getElementById('toggle').setAttribute("checked", "");
     setOnIcon();
-    //status = "true";
   }
   else{
     document.getElementById('toggle').removeAttribute("checked");
     setOffIcon();
-    //status = "false";
   }
 });
 
@@ -34,29 +38,24 @@ function changeToggle() {
     setOnIcon();
     window.localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
-    //status = "true";
   }
   else{
     setOffIcon();
     window.localStorage.setItem("toggleStatus", false);
     document.getElementById('toggle').removeAttribute("checked");
-    //status = "false";
   }
 };
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
 function changeLocal(){
   if (window.localStorage.getItem("toggleStatus")!="false"){
-    // Unused conditions: localStorage.getItem("toggleStatus")==undefined || localStorage.getItem("toggleStatus")===null
     setOnIcon();
     window.localStorage.setItem("toggleStatus", true);
     document.getElementById('toggle').setAttribute("checked","");
-    //status = "true";
   }
   else if (window.localStorage.getItem("toggleStatus")=="false"){
     setOffIcon();
     document.getElementById('toggle').removeAttribute("checked");
-    //status = "false";
   }
 };
 
