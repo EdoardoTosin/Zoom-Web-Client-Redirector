@@ -4,10 +4,10 @@ if( typeof document.querySelector('#toggle') !== 'undefined') {
     //its not dead
 }
 
-// When page load it calls changeLocal function and print text in console.
+// When page load it calls restoreOption function and print text in console.
 window.addEventListener("load", function(event) {
     console.log("Zoom WC Redirector finished loading!");
-    changeLocal();
+    restoreOption();
     /*
     browser.storage.local.set({"key": 'value'});
     var savedvalue = "false";
@@ -20,7 +20,6 @@ window.addEventListener("load", function(event) {
 document.addEventListener("load", function(event) {
   var existing = window.localStorage.getItem('toggleStatus');
   var data = existing ? existing + '' : "true";
-  window.localStorage.setItem("toggleStatus", data);
   if (data=="true"){
     setRedirectOn();
   }
@@ -31,11 +30,11 @@ document.addEventListener("load", function(event) {
 
 // If toggle change state it calls changeElem function.
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('#toggle').addEventListener('change', changeToggle);
+  document.querySelector('#toggle').addEventListener('change', saveOption);
 });
 
 // Change localStorage "toggleStatus" value and extension icon when checkbox change state.
-function changeToggle() {
+function saveOption() {
   if (document.getElementById('toggle').checked){
     setRedirectOn();
   }
@@ -45,7 +44,7 @@ function changeToggle() {
 };
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
-function changeLocal(){
+function restoreOption(){
   if (window.localStorage.getItem("toggleStatus")!="false"){
     setRedirectOn();
   }
