@@ -11,6 +11,10 @@
     "128": "icons/128x128.png",
     "256": "icons/256x256.png"
   },
+  "options_ui": {
+      "page": "background.html",
+      "browser_style": true
+  },
   "permissions": [
     "storage",
     "*://*.zoom.us/*",
@@ -30,7 +34,8 @@
         "*://*.zoomgov.com/*"
       ],
       "js": [
-        "js/background.js"
+        "js/background.js",
+        "js/redirect.js"
       ]
     }
   ],

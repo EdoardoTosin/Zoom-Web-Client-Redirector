@@ -1,5 +1,9 @@
 var browser = (window.browser)? window.browser : window.chrome;
 
+if( typeof document.querySelector('#toggle') !== 'undefined') {
+    //its not dead
+}
+
 // When page load it calls changeLocal function and print text in console.
 window.addEventListener("load", function(event) {
     console.log("Zoom WC Redirector finished loading!");
@@ -15,15 +19,13 @@ window.addEventListener("load", function(event) {
 // Load checkbox status based on localStorage last state.
 document.addEventListener("load", function(event) {
   var existing = window.localStorage.getItem('toggleStatus');
-  var data = existing ? existing + '' : true;
+  var data = existing ? existing + '' : "true";
   window.localStorage.setItem("toggleStatus", data);
   if (data=="true"){
-    document.getElementById('toggle').setAttribute("checked", "");
-    setOnIcon();
+    setRedirectOn();
   }
   else{
-    document.getElementById('toggle').removeAttribute("checked");
-    setOffIcon();
+    setRedirectOff();
   }
 });
 
@@ -35,32 +37,27 @@ document.addEventListener('DOMContentLoaded', function () {
 // Change localStorage "toggleStatus" value and extension icon when checkbox change state.
 function changeToggle() {
   if (document.getElementById('toggle').checked){
-    setOnIcon();
-    window.localStorage.setItem("toggleStatus", true);
-    document.getElementById('toggle').setAttribute("checked","");
+    setRedirectOn();
   }
   else{
-    setOffIcon();
-    window.localStorage.setItem("toggleStatus", false);
-    document.getElementById('toggle').removeAttribute("checked");
+    setRedirectOff();
   }
 };
 
 // Change checkbox status based on lodalStorage "toggleStatus" value
 function changeLocal(){
   if (window.localStorage.getItem("toggleStatus")!="false"){
-    setOnIcon();
-    window.localStorage.setItem("toggleStatus", true);
-    document.getElementById('toggle').setAttribute("checked","");
+    setRedirectOn();
   }
   else if (window.localStorage.getItem("toggleStatus")=="false"){
-    setOffIcon();
-    document.getElementById('toggle').removeAttribute("checked");
+    setRedirectOff();
   }
 };
 
-// Change Icon with activate set.
-function setOnIcon(){
+// Change Icon, Toggle and localStorage to true/on.
+function setRedirectOn(){
+  window.localStorage.setItem("toggleStatus", "true");
+  document.getElementById('toggle').setAttribute("checked","");
   chrome.browserAction.setIcon({
       path: {
         "16": "../icons/16x16.png",
@@ -73,8 +70,10 @@ function setOnIcon(){
   });
 };
 
-// Change Icon with deactivate set.
-function setOffIcon(){
+// Change Icon, Toggle and localStorage to false/off.
+function setRedirectOff(){
+  window.localStorage.setItem("toggleStatus", "false");
+  document.getElementById('toggle').removeAttribute("checked");
   chrome.browserAction.setIcon({
       path: {
         "16": "../icons/16x16-off.png",
@@ -86,12 +85,3 @@ function setOffIcon(){
       }
   });
 };
-
-// Replace */j/* on zoom domain with */wc/join/*
-(function redirect(){
-  if (/*window.localStorage.getItem("toggleStatus")=="true" && */window.location.pathname != null && window.location.pathname.substring(0,3) == "/j/") {
-    const domain = window.location.hostname;
-    const path = "/wc/join/" + window.location.pathname.substring(3);
-    window.location.href = "https://" + domain + path;
-  }
-})();
