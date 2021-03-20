@@ -12,7 +12,7 @@
     "256": "icons/256x256.png"
   },
   "options_ui": {
-      "page": "background.html",
+      "page": "popup.html",
       "browser_style": true
   },
   "permissions": [
