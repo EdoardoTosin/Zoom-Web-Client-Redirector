@@ -28,7 +28,7 @@ For more information read this blog post: [10 tips for Zoom security and privacy
 
 ## Privacy policy
 
-Zoom Web Client Redirector does not collect any data of any kind.
+Zoom Web Client Redirector does NOT collect any data of any kind.
 
 ## Permissions
 
