@@ -1,4 +1,9 @@
-<h1 id="-icon-24-24-zoom-web-client-redirector"><img src="src/icons/48x48.png" vertical-align="bottom" width="24" height="24" alt="image"> Zoom Web Client Redirector</h1>
+<h1 align="center">
+<sub>
+<img src="src/icons/48x48.png" vertical-align="bottom" width="32" height="32" alt="image">
+</sub>
+Zoom Web Client Redirector
+</h1>
 
 ## Table of contents
 
