@@ -14,9 +14,7 @@
   "permissions": [
     "storage",
     "*://*.zoom.us/*",
-    "*://*.zoomgov.us/*",
-    "*://*.zoom.com/*",
-    "*://*.zoomgov.com/*"
+    "*://*.zoomgov.us/*"
   ],
   "background": {
     "page": "html/popup.html"
