@@ -21,7 +21,7 @@ Simple addon that redirects zoom meetings to the web client version.
 
 ## Description
 
-This project was intended to redirect Zoom meetings links to the web client page without the need to click every time you open a zoom meeting.  
+This project was intended make it easier to redirect Zoom meetings links to the web client page.  
 The web client is preferable over the desktop app because of the restriction that web browsers place on websites.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
 
