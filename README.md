@@ -3,11 +3,14 @@
 <img src="src/icons/48x48.png" vertical-align="bottom" width="32" height="32" alt="image">
 </sub>
 Zoom Web Client Redirector
-<br>
+<br><br>
 <sup>
-  <img src="docs/firefox.png" vertical-align="bottom" width="48" height="48" alt="image">
-  <img src="docs/chrome.png" vertical-align="bottom" width="48" height="48" alt="image">
-  <img src="docs/edge.png" vertical-align="bottom" width="48" height="48" alt="image">
+  <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
+    <img src="docs/firefox.png" vertical-align="center" width="48" height="48" alt="image">
+  <a href=undefined rel="nofollow">
+    <img src="docs/chrome.png" vertical-align="center" width="48" height="48" alt="image">
+  <a href=undefined rel="nofollow">
+    <img src="docs/edge.png" vertical-align="center" width="48" height="48" alt="image">
 </sup>
 </h1>
 
