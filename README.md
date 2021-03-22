@@ -55,4 +55,4 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE)
+This software is released under the terms of the MIT license. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
