@@ -69,7 +69,7 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 ],
 ```
 
-- ``storage`` is used to save locally the state of the button present in the dashboard.  
+- ``storage`` is used to save locally the state of the button placed in the popup user interface.  
 - ``*://*.zoom.us/*`` and ``*://*.zoomgov.us/*`` are necessary to get the url and modify it to redirect to the web client page.
 
 ## Release History
