@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.zoom.us/*"
+        "*://*.zoom.us/*",
         "*://*.zoomgov.us/*"
       ],
       "js": [
