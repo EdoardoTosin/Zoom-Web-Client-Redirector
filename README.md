@@ -9,7 +9,7 @@ Zoom Web Client Redirector
 
 * [Summary](#summary)
 * [Description](#description)
-* [Install Addon](#install-addon)
+* [Installation](#installation)
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
@@ -26,7 +26,7 @@ This browser addon works by replacing a portion of the url with "/wc/join" so th
 The web client is preferable over the desktop app because of the restriction that web browsers places on websites.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
 
-## Install Addon
+## Installation
 
 * [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/)
 * ~~Google Chrome~~ (in review phase)
