@@ -26,7 +26,7 @@ Zoom Web Client Redirector
 
 ## Summary
 
-Simple addon that redirects zoom meetings to the web client version.
+A web extension that redirects zoom meetings to the web client version.
 
 ## Description
 
