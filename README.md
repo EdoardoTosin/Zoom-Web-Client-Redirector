@@ -22,6 +22,7 @@ Simple addon that redirects zoom meetings to the web client version.
 ## Description
 
 This project was intended make it easier to redirect Zoom meetings links to the web client page.  
+This browser addon works by replacing a portion of the url with "/wc/join" so that it loads the meeting joining page.  
 The web client is preferable over the desktop app because of the restriction that web browsers place on websites.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
 
