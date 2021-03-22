@@ -6,11 +6,11 @@ Zoom Web Client Redirector
 <br><br>
 <sup>
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
-    <img src="docs/firefox.png" vertical-align="center" width="48" height="48" alt="image"></a>
+    <img src="docs/firefox-widget.png" vertical-align="center" height="72" alt="image"></a>
   <a href=undefined rel="nofollow">
-    <img src="docs/chrome.png" vertical-align="center" width="48" height="48" alt="image"></a>
+    <img src="docs/chrome-widget.png" vertical-align="center" height="72" alt="image"></a>
   <a href=undefined rel="nofollow">
-    <img src="docs/edge.png" vertical-align="center" width="48" height="48" alt="image"></a>
+    <img src="docs/edge-widget.png" vertical-align="center" height="72" alt="image"></a>
 </sup>
 </h1>
 
