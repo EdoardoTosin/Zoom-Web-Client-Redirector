@@ -30,7 +30,7 @@ A web extension that redirects zoom meetings to the web client version.
 
 ## Description
 
-This project was intended make it easier to redirect Zoom meetings links to the web client page.  
+This project was intended to make it easier to redirect Zoom meetings links to the web client page.  
 This browser addon works by replacing a portion of the url with "/wc/join" so that it loads the meeting joining page. For example `https://zoom.us/j/0123456789` would be converted to `https://zoom.us/wc/join/0123456789`.  
 The web client is preferable over the desktop app because of the restriction that web browsers places on websites.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
