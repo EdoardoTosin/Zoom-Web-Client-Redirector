@@ -15,7 +15,7 @@ Zoom Web Client Redirector
 
 * [Summary](#summary)
 * [Description](#description)
-* [Install Addon](#install-addon)
+* [Installation](#installation)
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
@@ -28,11 +28,11 @@ Simple addon that redirects zoom meetings to the web client version.
 ## Description
 
 This project was intended make it easier to redirect Zoom meetings links to the web client page.  
-This browser addon works by replacing a portion of the url with "/wc/join" so that it loads the meeting joining page.  
-The web client is preferable over the desktop app because of the restriction that web browsers place on websites.  
+This browser addon works by replacing a portion of the url with "/wc/join" so that it loads the meeting joining page. For example `https://zoom.us/j/0123456789` would be converted to `https://zoom.us/wc/join/0123456789`.  
+The web client is preferable over the desktop app because of the restriction that web browsers places on websites.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
 
-## Install Addon
+## Installation
 
 * [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/)
 * ~~Google Chrome~~ (in review phase)
@@ -61,4 +61,4 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE)
+This software is released under the terms of the MIT license. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
