@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
-  "version": "2.5.13",
+  "version": "2.6.0",
   "description": "A web extension that redirects zoom meetings to the web client version.",
   "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
   "icons": {

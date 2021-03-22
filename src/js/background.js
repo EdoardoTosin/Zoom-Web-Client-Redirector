@@ -1,32 +1,18 @@
 var browser = (window.browser)? window.browser : window.chrome;
 
-if( typeof document.querySelector('#toggle') !== 'undefined') {
-    //its not dead
+// When the popup page load it checks the stored option and change toggle and icon set.
+document.body.onload = function() {
+  chrome.storage.sync.get("toggle", function(items) {
+    if (!chrome.runtime.error) {
+      console.log(items.toggle);
+      if (items.toggle=="false")
+        setRedirectOff();
+      else {
+        setRedirectOn();
+      }
+    }
+  });
 }
-
-// When page load it calls restoreOption function and print text in console.
-window.addEventListener("load", function(event) {
-    console.log("Zoom WC Redirector finished loading!");
-    restoreOption();
-    /*
-    browser.storage.local.set({"key": 'value'});
-    var savedvalue = "false";
-    browser.storage.local.get(['key'], function(result) {savedvalue = result.key});
-    console.log(savedvalue);
-    */
-});
-
-// Load checkbox status based on localStorage last state.
-document.addEventListener("load", function(event) {
-  var existing = window.localStorage.getItem('toggleStatus');
-  var data = existing ? existing + '' : "true";
-  if (data=="true"){
-    setRedirectOn();
-  }
-  else{
-    setRedirectOff();
-  }
-});
 
 // If toggle change state it calls changeElem function.
 document.addEventListener('DOMContentLoaded', function () {
@@ -43,19 +29,9 @@ function saveOption() {
   }
 };
 
-// Change checkbox status based on lodalStorage "toggleStatus" value
-function restoreOption(){
-  if (window.localStorage.getItem("toggleStatus")!="false"){
-    setRedirectOn();
-  }
-  else if (window.localStorage.getItem("toggleStatus")=="false"){
-    setRedirectOff();
-  }
-};
-
 // Change Icon, Toggle and localStorage to true/on.
 function setRedirectOn(){
-  window.localStorage.setItem("toggleStatus", "true");
+  chrome.storage.sync.set({'toggle': "true"});
   document.getElementById('toggle').setAttribute("checked","");
   chrome.browserAction.setIcon({
       path: {
@@ -71,7 +47,7 @@ function setRedirectOn(){
 
 // Change Icon, Toggle and localStorage to false/off.
 function setRedirectOff(){
-  window.localStorage.setItem("toggleStatus", "false");
+  chrome.storage.sync.set({'toggle': "false"});
   document.getElementById('toggle').removeAttribute("checked");
   chrome.browserAction.setIcon({
       path: {
