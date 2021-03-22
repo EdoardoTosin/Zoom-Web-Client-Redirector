@@ -3,6 +3,12 @@
 <img src="src/icons/48x48.png" vertical-align="bottom" width="32" height="32" alt="image">
 </sub>
 Zoom Web Client Redirector
+<br>
+<sup>
+  <img src="docs/firefox.png" vertical-align="bottom" width="48" height="48" alt="image">
+  <img src="docs/chrome.png" vertical-align="bottom" width="48" height="48" alt="image">
+  <img src="docs/edge.png" vertical-align="bottom" width="48" height="48" alt="image">
+</sup>
 </h1>
 
 ## Table of contents
