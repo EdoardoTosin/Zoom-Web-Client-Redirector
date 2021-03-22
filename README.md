@@ -19,6 +19,8 @@ Zoom Web Client Redirector
 * [Summary](#summary)
 * [Description](#description)
 * [Installation](#installation)
+* [Dashboard](#dashboard)
+* [Screen example](#screen-example)
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
@@ -40,6 +42,18 @@ For more information about best practices for securing your Zoom meetings read t
 * [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/)
 * ~~Google Chrome~~ (in review phase)
 * ~~Microsoft Edge~~ (in review phase)
+
+## Dashboard
+
+<p align="center">
+  <img src="docs/popup.jpg" align="center" alt="image">
+</p>
+
+## Screen example
+
+<p align="center">
+  <a><img src="docs/screen.jpg" align="center" alt="image">
+</p>
 
 ## Privacy policy
 
