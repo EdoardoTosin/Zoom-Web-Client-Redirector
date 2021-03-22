@@ -39,9 +39,14 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Installation
 
-* [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector/)
-* ~~Google Chrome~~ (in review phase)
-* ~~Microsoft Edge~~ (in review phase)
+<dl>
+  <dd><a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
+    <img src="docs/firefox.png" align="bottom" width="12" height="12" alt="image">  Mozilla Firefox</dd></a>
+  <dd><a href="undefined" rel="nofollow">
+    <img src="docs/chrome.png" align="bottom" width="12" height="12" alt="image"> Google Chrome (in review phase)</dd></a>
+  <dd><a href="undefined" rel="nofollow">
+    <img src="docs/edge.png" align="bottom" width="12" height="12" alt="image"> Microsoft Edge (in review phase)</dd></a>
+</dl>
 
 ## Dashboard
 
