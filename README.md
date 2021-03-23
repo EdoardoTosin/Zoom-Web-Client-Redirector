@@ -83,4 +83,4 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## License
 
-This software is released under the terms of the MIT license. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
+This software is released under the terms of the GPL-3.0 License. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
