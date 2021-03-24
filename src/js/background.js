@@ -1,5 +1,20 @@
 var browser = (window.browser)? window.browser : window.chrome;
 
+// Set redirect option on after install
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.storage.sync.set({'toggle': "true"});
+  chrome.browserAction.setIcon({
+      path: {
+        "16": "../icons/16x16.png",
+        "32": "../icons/32x32.png",
+        "48": "../icons/48x48.png",
+        "64": "../icons/64x64.png",
+        "128": "../icons/128x128.png",
+        "256": "../icons/256x256.png"
+      }
+  });
+});
+
 // When the popup page load it checks the stored option and change toggle and icon set.
 document.body.onload = function() {
   chrome.storage.sync.get("toggle", function(items) {
