@@ -9,7 +9,7 @@ Zoom Web Client Redirector
     <img src="docs/firefox-widget.png" vertical-align="center" height="72" alt="image"></a>
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj" rel="nofollow">
     <img src="docs/chrome-widget.png" vertical-align="center" height="72" alt="image"></a>
-  <a href="undefined" rel="nofollow">
+  <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn" rel="nofollow">
     <img src="docs/edge-widget.png" vertical-align="center" height="72" alt="image"></a>
 </sup>
 </h1>
@@ -44,7 +44,7 @@ For more information about best practices for securing your Zoom meetings read t
     <img src="docs/firefox.png" align="bottom" width="12" height="12" alt="image">  Mozilla Firefox</dd></a>
   <dd><a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj" rel="nofollow">
     <img src="docs/chrome.png" align="bottom" width="12" height="12" alt="image"> Google Chrome</dd></a>
-  <dd><a href="undefined" rel="nofollow">
+  <dd><a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn" rel="nofollow">
     <img src="docs/edge.png" align="bottom" width="12" height="12" alt="image"> Microsoft Edge (in review phase)</dd></a>
 </dl>
 
