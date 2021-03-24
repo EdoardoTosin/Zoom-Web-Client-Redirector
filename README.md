@@ -43,7 +43,7 @@ For more information about best practices for securing your Zoom meetings read t
   <dd><a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
     <img src="docs/firefox.png" align="bottom" width="12" height="12" alt="image">  Mozilla Firefox</dd></a>
   <dd><a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj" rel="nofollow">
-    <img src="docs/chrome.png" align="bottom" width="12" height="12" alt="image"> Google Chrome (in review phase)</dd></a>
+    <img src="docs/chrome.png" align="bottom" width="12" height="12" alt="image"> Google Chrome</dd></a>
   <dd><a href="undefined" rel="nofollow">
     <img src="docs/edge.png" align="bottom" width="12" height="12" alt="image"> Microsoft Edge (in review phase)</dd></a>
 </dl>
