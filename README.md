@@ -1,18 +1,17 @@
 <h1 align="center">
 <sub>
-<img src="src/icons/48x48.png" vertical-align="bottom" width="32" height="32" alt="image">
+<img  src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/src/icons/256x256.png" height="38" width="38">
 </sub>
 Zoom Web Client Redirector
-<br><br>
-<sup>
-  <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
-    <img src="docs/firefox-widget.png" vertical-align="center" height="72" alt="image"></a>
-  <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj" rel="nofollow">
-    <img src="docs/chrome-widget.png" vertical-align="center" height="72" alt="image"></a>
-  <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn" rel="nofollow">
-    <img src="docs/edge-widget.png" vertical-align="center" height="72" alt="image"></a>
-</sup>
 </h1>
+
+***
+
+<p align="center">
+<a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/firefox-widget.png" alt="Get Zoom Web Client Redirector for Firefox"></a> 
+<a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/chrome-widget.png" alt="Get Zoom Web Client Redirector for Chromium"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/edge-widget.png" alt="Get Zoom Web Client Redirector for Microsoft Edge"></a>
+</p>
 
 ## Table of contents
 
@@ -39,14 +38,9 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Installation
 
-<dl>
-  <dd><a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector" rel="nofollow">
-    <img src="docs/firefox.png" align="bottom" width="12" height="12" alt="image">  Mozilla Firefox</dd></a>
-  <dd><a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj" rel="nofollow">
-    <img src="docs/chrome.png" align="bottom" width="12" height="12" alt="image"> Google Chrome</dd></a>
-  <dd><a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn" rel="nofollow">
-    <img src="docs/edge.png" align="bottom" width="12" height="12" alt="image"> Microsoft Edge (in review phase)</dd></a>
-</dl>
+- [Mozilla Firefox](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector)
+- [Google Chrome (coming soon)](https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj)
+- [Microsoft Edge (coming soon)](https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn)
 
 ## Dashboard
 
@@ -83,4 +77,6 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## License
 
-This software is released under the terms of the GPL-3.0 License. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
+Copyright (c) 2021 Edoardo Tosin
+
+This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
