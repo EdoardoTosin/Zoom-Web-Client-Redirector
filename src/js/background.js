@@ -4,7 +4,7 @@ var browser = (window.browser)? window.browser : window.chrome;
 document.body.onload = function() {
   chrome.storage.sync.get("toggle", function(items) {
     if (!chrome.runtime.error) {
-      console.log(items.toggle);
+      //console.log(items.toggle);
       if (items.toggle=="false")
         setRedirectOff();
       else {
