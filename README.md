@@ -5,8 +5,6 @@
 Zoom Web Client Redirector
 </h1>
 
-***
-
 <p align="center">
 <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/firefox-widget.png" alt="Get Zoom Web Client Redirector for Firefox" height="72" ></a> 
 <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/chrome-widget.png" alt="Get Zoom Web Client Redirector for Chromium" height="72" ></a>
