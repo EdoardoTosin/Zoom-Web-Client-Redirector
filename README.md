@@ -46,13 +46,13 @@ For more information about best practices for securing your Zoom meetings read t
 ## Dashboard
 
 <p align="center">
-  <img src="docs/popup.jpg" align="center" alt="image">
+  <img src="docs/dashboard/on.png" align="center" alt="image"><img src="docs/dashboard/off.png" align="center" alt="image"></img>
 </p>
 
 ## Screen example
 
 <p align="center">
-  <a><img src="docs/screen.jpg" align="center" alt="image">
+  <a><img src="docs/screeshots/after.png" align="center" alt="image"><img src="docs/screeshots/after.png" align="center" alt="image"></a>
 </p>
 
 ## Privacy policy
