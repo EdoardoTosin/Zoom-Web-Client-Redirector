@@ -52,7 +52,7 @@ For more information about best practices for securing your Zoom meetings read t
 ## Screen example
 
 <p align="center">
-  <a><img src="docs/screeshots/after.png" align="center" alt="image"><img src="docs/screeshots/after.png" align="center" alt="image"></a>
+  <img src="docs/screeshots/before.png" align="center" alt="image"><img src="docs/screeshots/after.png" align="center" alt="image">
 </p>
 
 ## Privacy policy
