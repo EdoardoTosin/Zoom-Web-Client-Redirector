@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom WC Redirector for Firefox" width="25%" ></a> 
+    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom WC Redirector for Firefox" width=25%></a> 
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
-    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom WC Redirector for Chromium" width="25%" ></a>
+    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom WC Redirector for Chromium" width=25%></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
-    <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width="25%" ></a>
+    <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width=25%></a>
 </p>
 
 ## Table of contents
@@ -52,8 +52,8 @@ For more information about best practices for securing your Zoom meetings read t
 ## Screen example
 
 <p align="center">
-  <img src="docs/screeshots/before.png" align="center" alt="Before" style="flex: 33.33%"></img>
-  <img src="docs/screeshots/after.png" align="center" alt="After" style="flex: 33.33%"></img>
+  <a align="left"><img src="docs/screeshots/before.png" width=49% alt="Before"></a>
+  <a align="right"><img src="docs/screeshots/after.png" width=49% alt="After"></a>
 </p>
 
 ## Privacy policy
