@@ -38,7 +38,7 @@ For more information about best practices for securing your Zoom meetings read t
 
 - [Mozilla Firefox (v2.6.3)](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector)
 - [Google Chrome (v2.6.3)](https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj)
-- [Microsoft Edge (coming soon)](https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn)
+- [Microsoft Edge (v2.6.3)](https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn)
 
 ## Dashboard
 
