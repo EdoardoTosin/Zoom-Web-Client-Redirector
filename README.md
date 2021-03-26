@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom WC Redirector for Firefox" width="33%" ></a> 
+    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom WC Redirector for Firefox" width="25%" ></a> 
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
-    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom WC Redirector for Chromium" width="33%" ></a>
+    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom WC Redirector for Chromium" width="25%" ></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
-    <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width="33%" ></a>
+    <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width="25%" ></a>
 </p>
 
 ## Table of contents
