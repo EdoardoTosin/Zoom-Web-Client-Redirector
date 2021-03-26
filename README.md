@@ -1,14 +1,20 @@
 <h1 align="center">
-<sub>
-<img  src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/src/icons/256x256.png" height="38" width="38">
-</sub>
-Zoom Web Client Redirector
+  <sub>
+    <img  src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/src/icons/256x256.png" height="38" width="38">
+  </sub>
+  Zoom Web Client Redirector
 </h1>
 
 <p align="center">
-<a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/firefox-widget.png" alt="Get Zoom Web Client Redirector for Firefox" height="72" ></a> 
-<a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/chrome-widget.png" alt="Get Zoom Web Client Redirector for Chromium" height="72" ></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn"><img src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/docs/edge-widget.png" alt="Get Zoom Web Client Redirector for Microsoft Edge" height="72" ></a>
+  <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
+    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom Web Client Redirector for Firefox" height="72" >
+  </a> 
+  <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
+    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom Web Client Redirector for Chromium" height="72" >
+  </a>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
+    <img src="docs/widgets/edge-widget.png" alt="Get Zoom Web Client Redirector for Microsoft Edge" height="72" >
+  </a>
 </p>
 
 ## Table of contents
