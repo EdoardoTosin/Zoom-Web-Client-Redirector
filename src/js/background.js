@@ -18,13 +18,11 @@ chrome.runtime.onInstalled.addListener(function() {
 // When the popup page load it checks the stored option and change toggle and icon set.
 document.body.onload = function() {
   chrome.storage.sync.get("toggle", function(items) {
-    if (!chrome.runtime.error) {
-      //console.log(items.toggle);
-      if (items.toggle=="false")
-        setRedirectOff();
-      else {
-        setRedirectOn();
-      }
+    //console.log(items.toggle);
+    if (items.toggle=="false")
+      setRedirectOff();
+    else {
+      setRedirectOn();
     }
   });
 }
