@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.5] - 2021-04-01
+
+### Changed
+
+- Updated link and text in the popup menu.
+- Added bottom margin in the popup menu.
+
 ## [2.6.4] - 2021-03-29
 
 ### Fixed
