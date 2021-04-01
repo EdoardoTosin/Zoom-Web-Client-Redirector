@@ -2,9 +2,11 @@
   color-scheme: light dark;
 }
 
+/* Popup menu main stylesheet */
 body {
   text-shadow: 1px 1px 5px rgba(128, 128, 128, 0.75);
   border: 5px solid rgba(0, 0, 0, 0.0);
+  margin-bottom: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow:ellipsis;
