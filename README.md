@@ -28,7 +28,7 @@
 
 ## Summary
 
-A web extension that redirects zoom meetings to the web client version.
+A browser extension that redirects zoom meetings to the web client version.
 
 ## Description
 
