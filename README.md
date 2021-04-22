@@ -13,6 +13,11 @@
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
     <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width=25%></a>
 </p>
+<p align="center">
+  <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/zoom-web-client-redirector?color=success&label=Firefox&logo=Firefox&style=for-the-badge">
+  <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ommndciompclncigoffdnipifnfnaclj?color=success&label=Chrome&logo=Google%20Chrome&style=for-the-badge">
+  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/EdoardoTosin/Zoom-Web-Client-Redirector?color=success&include_prereleases&label=GitHub&logo=GitHub&style=for-the-badge">
+</p>
 
 ## Table of contents
 
