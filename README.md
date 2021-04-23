@@ -17,7 +17,7 @@
   <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/zoom-web-client-redirector?label=Firefox&logo=Firefox&style=for-the-badge"/>
   <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ommndciompclncigoffdnipifnfnaclj?label=chrome&logo=google-chrome&style=for-the-badge">
   <img alt="Edge Store" src="https://img.shields.io/badge/dynamic/json?label=Edge&logo=microsoft-edge&style=for-the-badge&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn"/>
-  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/EdoardoTosin/Zoom-Web-Client-Redirector?color=success&include_prereleases&label=GitHub&logo=GitHub&style=for-the-badge"/>
+  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/EdoardoTosin/Zoom-Web-Client-Redirector?include_prereleases&label=GitHub&logo=GitHub&style=for-the-badge"/>
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/edoardotosin/Zoom-Web-Client-Redirector?style=for-the-badge"/>
   <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/edoardotosin/Zoom-Web-Client-Redirector/total?style=for-the-badge"/>
 </p>
