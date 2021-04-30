@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="docs/widgets/firefox-widget.png" alt="Get Zoom WC Redirector for Firefox" width=25%></a> 
+    <img src="docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a> 
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
-    <img src="docs/widgets/chrome-widget.png" alt="Get Zoom WC Redirector for Chromium" width=25%></a>
+    <img src="docs/badges/chrome.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
-    <img src="docs/widgets/edge-widget.png" alt="Get Zoom WC Redirector for Microsoft Edge" width=25%></a>
+    <img src="docs/badges/edge.png" alt="Get Zoom WC Redirector for Microsoft Edge" height=80px></a>
 </p>
 <p align="center">
   <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/EdoardoTosin/Zoom-Web-Client-Redirector?include_prereleases&label=GitHub&logo=GitHub&style=for-the-badge"/>
