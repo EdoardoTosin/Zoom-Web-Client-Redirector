@@ -31,6 +31,7 @@
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
+* [Changelog](#changelog)
 * [License](#license)
 
 ## Summary
@@ -84,8 +85,12 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 
 See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/releases) for a history of releases and highlights for each release.
 
+## Changelog
+
+For more detail of extension releases see the [Changelog](/CHANGELOG.md)
+
 ## License
 
 Copyright (c) 2021 Edoardo Tosin
 
-This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
+This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](/LICENSE) file for further information.
