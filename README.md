@@ -55,13 +55,13 @@ For more information about best practices for securing your Zoom meetings read t
 
 | ![Off](docs/dashboard/off.png) | ![On](docs/dashboard/on.png) |
 | :---: | :---: |
-| Toggle Off | Toggle On |
+| **Toggle Off** | **Toggle On** |
 
 ## Screen example
 
 | ![Before](docs/screenshots/before_no_text.png) | ![After](docs/screenshots/after_no_text.png) |
 | :---: | :---: |
-| Before | After |
+| **Before** |**After** |
 
 ## Privacy policy
 
