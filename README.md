@@ -59,7 +59,7 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Screen example
 
-| ![Before](docs/screeshots/before_no_text.png) | ![After](docs/screeshots/after_no_text.png) |
+| ![Before](docs/screenshots/before_no_text.png) | ![After](docs/screenshots/after_no_text.png) |
 | :---: | :---: |
 | Before | After |
 
