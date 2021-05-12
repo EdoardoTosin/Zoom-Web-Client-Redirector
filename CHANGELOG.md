@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [[2.7.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.7.0)] - 2021-05-12
+
+### Added
+
+- Support Firefox for Android.
+
+### Changed
+
+- New extension icon.
+- Minimum version of Firefox to support: 79.0.
+- Improved dashboard readability.
+
+### Fixed
+
+- Minor issues on Firefox (API warnings unresolved since version [2.6.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.6.0)):
+  - "storage.sync" can cause issues when loaded temporarily.
+  - runtime.error is not supported.
+
 ## [[2.6.5](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.6.5)] - 2021-04-01
 
 ### Changed
