@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
-  "version": "2.6.5",
+  "short_name": "ZoomRedirect",
+  "version": "2.7.0",
   "description": "A web extension that redirects zoom meetings to the web client version.",
   "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
   "icons": {
@@ -43,5 +44,11 @@
     },
     "default_title": "Zoom Web Client Redirector",
     "default_popup": "html/popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d20bd4aa-d2b5-4834-85e4-f563b48bb560}",
+      "strict_min_version": "79.0"
+    }
   }
 }
