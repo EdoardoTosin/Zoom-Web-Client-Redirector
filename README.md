@@ -53,16 +53,15 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Dashboard
 
-<p align="center">
-  <img src="docs/dashboard/on.png" align="center" alt="On"><img src="docs/dashboard/off.png" align="center" alt="Off"></img>
-</p>
+| ![Off](docs/dashboard/off.png) | ![On](docs/dashboard/on.png) |
+| :---: | :---: |
+| Toggle Off | Toggle On |
 
 ## Screen example
 
-<p align="center">
-  <a align="left"><img src="docs/screeshots/before.png" width=49% alt="Before"></a>
-  <a align="right"><img src="docs/screeshots/after.png" width=49% alt="After"></a>
-</p>
+| ![Before](docs/screeshots/before_no_text.png) | ![After](docs/screeshots/after_no_text.png) |
+| :---: | :---: |
+| Before | After |
 
 ## Privacy policy
 
