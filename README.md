@@ -31,6 +31,7 @@
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
+* [Changelog](#changelog)
 * [License](#license)
 
 ## Summary
@@ -52,16 +53,15 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Dashboard
 
-<p align="center">
-  <img src="docs/dashboard/on.png" align="center" alt="On"><img src="docs/dashboard/off.png" align="center" alt="Off"></img>
-</p>
+| ![Off](docs/dashboard/off.png) | ![On](docs/dashboard/on.png) |
+| :---: | :---: |
+| Toggle Off | Toggle On |
 
 ## Screen example
 
-<p align="center">
-  <a align="left"><img src="docs/screeshots/before.png" width=49% alt="Before"></a>
-  <a align="right"><img src="docs/screeshots/after.png" width=49% alt="After"></a>
-</p>
+| ![Before](docs/screeshots/before_no_text.png) | ![After](docs/screeshots/after_no_text.png) |
+| :---: | :---: |
+| Before | After |
 
 ## Privacy policy
 
@@ -84,8 +84,12 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 
 See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/releases) for a history of releases and highlights for each release.
 
+## Changelog
+
+For more detail of extension releases see the [Changelog](/CHANGELOG.md)
+
 ## License
 
 Copyright (c) 2021 Edoardo Tosin
 
-This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/LICENSE) file for further information.
+This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](/LICENSE) file for further information.
