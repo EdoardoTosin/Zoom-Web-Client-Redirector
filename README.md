@@ -26,8 +26,8 @@
 * [Summary](#summary)
 * [Description](#description)
 * [Features](#features)
-  * [Dark/light mode](#dark/light-mode)
-  * [Enable/disable extension toggle](#enable/disable-extension-toggle)
+  * [Dark mode](#dark-mode)
+  * [Extension toggle](#extension-toggle)
 * [Installation](#installation)
 * [Dashboard](#dashboard)
 * [Screen example](#screen-example)
@@ -50,13 +50,13 @@ For more information about best practices for securing your Zoom meetings read t
 
 ## Features
 
-### Dark/light mode
+### Dark mode
 
 According to system settings the extension's dashboard has the corresponding background.
 
-### Enable/disable extension toggle
+### Extension toggle
 
-When opening the dashboard there is a toggle to enable or disable the extension to better control the behaviour whenever wanted.
+When opening the dashboard there is a toggle to enable/disable the extension to better control the behaviour whenever wanted.
 
 ## Installation
 | **Mozilla Firefox Add-on** | **Chrome Web Store** | **Microsoft Edge** |
