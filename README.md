@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a> 
+    <img src="docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a>
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
     <img src="docs/badges/chrome.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
@@ -25,6 +25,9 @@
 
 * [Summary](#summary)
 * [Description](#description)
+* [Features](#features)
+  - [Dark/light mode](dark/light-mode)
+  - [Enable/disable extension toggle](enable/disable-extension-toggle)
 * [Installation](#installation)
 * [Dashboard](#dashboard)
 * [Screen example](#screen-example)
@@ -45,6 +48,16 @@ This browser addon works by replacing a portion of the url with `*/wc/join/*` so
 The web client is preferable over the desktop app because of the restriction that web browsers places on web pages, protecting your computer against malicious attacks and unauthorized access of your machine.  
 For more information about best practices for securing your Zoom meetings read this blog post: [10 tips for Zoom security and privacy](https://www.kaspersky.com/blog/zoom-security-ten-tips/34729).
 
+## Features
+
+### Dark/light mode
+
+According to system settings the extension's dashboard has the corresponding background.
+
+### Enable/disable extension toggle
+
+When opening the dashboard there is a toggle to enable or disable the extension to better control the behaviour whenever wanted.
+
 ## Installation
 | **Mozilla Firefox Add-on** | **Chrome Web Store** | **Microsoft Edge** |
 | :---: | :---: | :---: |
@@ -60,7 +73,7 @@ For more information about best practices for securing your Zoom meetings read t
 
 | ![Before](docs/screenshots/before_no_text.png) | ![After](docs/screenshots/after_no_text.png) |
 | :---: | :---: |
-| **Before** |**After** |
+| **Before redirect** |**After redirect** |
 
 ## Privacy policy
 
@@ -76,7 +89,7 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 ],
 ```
 
-- ``storage`` is used to save locally the state of the button placed in the popup user interface.  
+- ``storage`` is used to store the status of the button that is present in the dashboard.  
 - ``*://*.zoom.us/*`` and ``*://*.zoomgov.us/*`` are necessary to get the url and modify it to redirect to the web client page.
 
 ## Release History
