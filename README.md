@@ -98,7 +98,7 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## Changelog
 
-For more details see [Changelog](/CHANGELOG.md)
+For more details see the [CHANGELOG](/CHANGELOG.md) file.
 
 ## License
 
