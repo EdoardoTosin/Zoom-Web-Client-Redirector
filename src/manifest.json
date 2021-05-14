@@ -3,6 +3,7 @@
   "name": "Zoom Web Client Redirector",
   "short_name": "ZoomRedirect",
   "version": "2.7.2",
+  "author": "Edoardo Tosin",
   "description": "A web extension that redirects zoom meetings to the web client version.",
   "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
   "icons": {
