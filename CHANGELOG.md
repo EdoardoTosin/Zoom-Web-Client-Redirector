@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.7.3](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.7.3) - 2021-05-14
+
+### Fixed
+
+- Redirect to the correct page before zoom page asks to download the client.
+
+### Unchanged
+
+- Redirect not fully working on Mozilla Firefox.
+
+## [2.7.2](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.7.2) - 2021-05-14
+
+### Fixed
+
+- Redirect function not always working.
+
+### Unchanged
+
+- Redirect not fully working on Mozilla Firefox.
+
 ## [2.7.1](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.7.1) - 2021-05-13
 
 ### Fixed
