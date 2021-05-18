@@ -31,7 +31,7 @@
 * [Installation](#installation)
   * [Mozilla Firefox issue](#mozilla-firefox-issue)
 * [Dashboard](#dashboard)
-* [Screen example](#screen-example)
+* [Zoom page example](#zoom-page-example)
 * [Privacy policy](#privacy-policy)
 * [Permissions](#permissions)
 * [Release History](#release-history)
@@ -74,7 +74,7 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 | :---: | :---: |
 | **Toggle Off** | **Toggle On (Default)** |
 
-## Screen example
+## Zoom page example
 
 | ![Before](docs/screenshots/before_no_text.png) | ![After](docs/screenshots/after_no_text.png) |
 | :---: | :---: |
