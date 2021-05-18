@@ -72,7 +72,7 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 | ![Off](docs/dashboard/off.png) | ![On](docs/dashboard/on.png) |
 | :---: | :---: |
-| **Toggle Off** | **Toggle On** |
+| **Toggle Off** | **Toggle On (Default)** |
 
 ## Screen example
 
