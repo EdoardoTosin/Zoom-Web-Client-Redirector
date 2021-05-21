@@ -67,7 +67,7 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ### Mozilla Firefox issue
 
-*Currently the web extension doesn't currently fully work on Mozilla Firefox. I'm still troubleshooting this [issue](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/issues/12).
+*Currently the web extension doesn't fully work on Mozilla Firefox. I'm still troubleshooting this [issue](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/issues/12).
 
 ## Dashboard
 
