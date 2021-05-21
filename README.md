@@ -1,17 +1,17 @@
 <h1 align="center">
   <sub>
-    <img  src="https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/blob/main/src/icons/256x256.png" height="38" width="38">
+    <img  src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/src/icons/256x256.png" height="38" width="38">
   </sub>
   Zoom Web Client Redirector
 </h1>
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a>
+    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a>
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
-    <img src="docs/badges/chrome.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
+    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/chrome.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
-    <img src="docs/badges/edge.png" alt="Get Zoom WC Redirector for Microsoft Edge" height=80px></a>
+    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/edge.png" alt="Get Zoom WC Redirector for Microsoft Edge" height=80px></a>
 </p>
 
 <p align="center">
@@ -70,13 +70,13 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ## Dashboard
 
-| ![Off](docs/dashboard/off.png) | ![On](docs/dashboard/on.png) |
+| ![Off](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off.png) | ![On](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on.png) |
 | :---: | :---: |
 | **Toggle Off** | **Toggle On (Default)** |
 
 ## Zoom page example
 
-| ![Before](docs/screenshots/before_no_text.png) | ![After](docs/screenshots/after_no_text.png) |
+| ![Before](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/screenshots/before_no_text.png) | ![After](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/screenshots/after_no_text.png) |
 | :---: | :---: |
 | **Before redirect** |**After redirect** |
 
@@ -103,10 +103,10 @@ See the [releases pages](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirec
 
 ## Changelog
 
-For more details see the [CHANGELOG](/CHANGELOG.md) file.
+For more details see the [CHANGELOG](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CHANGELOG.md) file.
 
 ## License
 
 Copyright (c) 2021 Edoardo Tosin
 
-This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](/LICENSE) file for further information.
+This software is released under the terms of the GNU General Public License v3.0. See the [LICENSE](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/LICENSE) file for further information.
