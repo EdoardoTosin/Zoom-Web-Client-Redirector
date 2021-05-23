@@ -18,7 +18,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
-- Browser [e.g. Chrome, Firefox]
+- Browser [e.g. Chrome, Edge, Firefox, Firefox for Android]
 - Version [e.g. 89.1]
 **Additional context**
 Add any other context about the problem here.
