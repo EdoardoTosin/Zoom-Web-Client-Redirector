@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Bug report
-    url: https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/issues
-    about: Bugs and feature requests are in the same repository
-  - name: Questions and support
-    url: https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/discussions
-    about: Answers to questions and other kinds of help support is provided on the discussion page
