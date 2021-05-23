@@ -111,7 +111,7 @@ For more details see the [CHANGELOG](https://github.com/EdoardoTosin/Zoom-Web-Cl
 
 When contributing to this repository, please first discuss the change you wish to make via issue, discussion, or any other method with the owner of this repository before making a change.
 
-**Read carefully the [CONTRIBUTING](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/.github/CONTRIBUTING.md) file.**
+**Read carefully the [CONTRIBUTING](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CONTRIBUTING.md) file.**
 
 ## License
 
