@@ -33,9 +33,12 @@ function setRedirectOff(){
   });
 };
 
-// Set redirect option on after install
-chrome.runtime.onInstalled.addListener(function() {
-  setRedirectOn();
+// Set redirect option on if toggle is not set
+chrome.storage.sync.get('toggle', function(items) {
+  var toggle = items.toggle;
+  if (typeof toggle === "undefined") {
+    setRedirectOn();
+  }
 });
 
 // When the popup page load it checks the stored option and change toggle and icon set.

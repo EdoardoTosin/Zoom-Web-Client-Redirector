@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.8.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.0) - 2021-05-26
+
+### Fixed
+
+- Addon does not redirect on Mozilla Firefox ([issue \#12](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/issues/12)).
+
 ## [2.7.3](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.7.3) - 2021-05-14
 
 ### Fixed

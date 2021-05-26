@@ -62,13 +62,9 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ## Installation
 
-| **Mozilla Firefox Add-on** * | **Chrome Web Store** | **Microsoft Edge** |
+| **Mozilla Firefox Add-on** | **Chrome Web Store** | **Microsoft Edge** |
 | :---: | :---: | :---: |
 | [![Mozilla Add-on](https://img.shields.io/amo/v/zoom-web-client-redirector?label=firefox&logo=Firefox&style=for-the-badge)](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector) | [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ommndciompclncigoffdnipifnfnaclj?label=chrome&logo=google-chrome&style=for-the-badge)](https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj) | [![Microsoft Edge](https://img.shields.io/badge/dynamic/json?label=Edge%09%09&logo=microsoft-edge&style=for-the-badge&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn)](https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn) |
-
-### Mozilla Firefox issue
-
-*Currently the web extension doesn't fully work in Mozilla Firefox. I'm still troubleshooting this [issue](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/issues/12).
 
 ## Dashboard
 
@@ -111,7 +107,7 @@ For more details see the [CHANGELOG](https://github.com/EdoardoTosin/Zoom-Web-Cl
 
 When contributing to this repository, please first discuss the change you wish to make via issue, discussion, or any other method with the owner of this repository before making a change.
 
-**Read carefully the [CONTRIBUTING](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CONTRIBUTING.md) guidelines.**
+**Read carefully the [contributing guidelines](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CONTRIBUTING.md).**
 
 ## License
 
