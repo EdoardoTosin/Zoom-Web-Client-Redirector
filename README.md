@@ -105,7 +105,7 @@ For more details see the [CHANGELOG](https://github.com/EdoardoTosin/Zoom-Web-Cl
 
 ## Contributing
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg?style=for-the-badge)](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/CODE_OF_CONDUCT.md)  
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg?style=for-the-badge)](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CODE_OF_CONDUCT.md)  
 When contributing to this repository, please first discuss the change you wish to make via issue, discussion, or any other method with the owner of this repository before making a change.
 
 **Read carefully the [contributing guidelines](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/main/CONTRIBUTING.md).**
