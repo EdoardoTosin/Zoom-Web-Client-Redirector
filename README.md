@@ -29,7 +29,6 @@
   * [Dark mode](#dark-mode)
   * [Extension toggle](#extension-toggle)
 * [Installation](#installation)
-  * [Mozilla Firefox issue](#mozilla-firefox-issue)
 * [Dashboard](#dashboard)
 * [Zoom page example](#zoom-page-example)
 * [Privacy policy](#privacy-policy)
