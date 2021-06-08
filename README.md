@@ -69,7 +69,7 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 <table>
     <thead>
-        <tr>
+        <tr align="center">
             <th colspan=2>Light Mode</th>
             <th colspan=2>Dark Mode</th>
         </tr>
