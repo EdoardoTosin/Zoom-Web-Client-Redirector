@@ -68,14 +68,14 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 ## Dashboard
 
 <table>
-    <thead>
-        <tr align="center">
+    <thead align="center">
+        <tr>
             <th colspan=2>Light Mode</th>
             <th colspan=2>Dark Mode</th>
         </tr>
     </thead>
-    <tbody>
-        <tr align="center">
+    <tbody align="center">
+        <tr>
             <td>Toggle Off</td>
             <td>Toggle On<br>(Default)</td>
             <td>Toggle Off</td>
