@@ -1,7 +1,7 @@
 var storage = chrome.storage.sync;
 if (!storage) storage = chrome.storage.local;
 
-// Replace */j/* on zoom domain with */wc/join/*
+// Replace */j/* in the url with */wc/join/*
 (function redirect(){
   storage.get("toggle", function(items) {
       //console.log(items.toggle);

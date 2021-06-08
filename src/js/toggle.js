@@ -1,7 +1,7 @@
 var storage = chrome.storage.sync;
 if (!storage) storage = chrome.storage.local;
 
-// Change Icon, Toggle and localStorage to true/on.
+// Change Icon, Toggle and chrome.storage to true/on.
 function setRedirectOn(){
   storage.set({'toggle': "true"});
   document.getElementById('toggle').setAttribute("checked","");
@@ -17,7 +17,7 @@ function setRedirectOn(){
   });
 };
 
-// Change Icon, Toggle and localStorage to false/off.
+// Change Icon, Toggle and chrome.storage to false/off.
 function setRedirectOff(){
   storage.set({'toggle': "false"});
   document.getElementById('toggle').removeAttribute("checked");
@@ -33,7 +33,7 @@ function setRedirectOff(){
   });
 };
 
-// Set redirect option on if toggle is not set
+// If toggle is not set, it creates it and load icon set.
 chrome.storage.sync.get('toggle', function(items) {
   var toggle = items.toggle;
   if (typeof toggle === "undefined") {
@@ -41,7 +41,7 @@ chrome.storage.sync.get('toggle', function(items) {
   }
 });
 
-// When the popup page load it checks the stored option and change toggle and icon set.
+// On dashboard load it checks chrome.storage toggle value and set the switch button and icon set accordingly.
 document.body.onload = function() {
   storage.get("toggle", function(items) {
     //console.log('Load to: ' + items.toggle);
@@ -53,7 +53,7 @@ document.body.onload = function() {
   });
 }
 
-// Change localStorage "toggleStatus" value and extension icon when checkbox change state.
+// Change chrome.storage "toggle" value and extension icon when checkbox change state.
 function saveOption() {
   if (document.getElementById('toggle').checked){
     setRedirectOn();
@@ -66,7 +66,7 @@ function saveOption() {
   });
 };
 
-// If toggle change state it calls changeElem function.
+// If toggle change state it calls saveOption function.
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('#toggle').addEventListener('change', saveOption);
 });

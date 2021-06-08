@@ -2,4 +2,10 @@
 :root {
   --color: rgb(250, 250, 250);
   --background-color: rgb(55, 55, 55);
+  --button-color: rgb(250, 250, 250);
+  --name-addon-color: rgb(45, 140, 255);
+  --icon-color-reference: rgb(45, 140, 255);
+  --text-shadow-name: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  --text-shadow-footer: 1px 1px 2px rgba(0, 0, 0, 0.75);
+  --box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
 }

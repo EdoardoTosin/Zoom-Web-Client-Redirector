@@ -4,11 +4,9 @@
 
 /* Popup menu main stylesheet */
 body {
-  text-shadow: 1px 1px 5px rgba(128, 128, 128, 0.60);
-  /*border: 8px solid rgba(0, 0, 0, 0.0);*/
+  text-shadow: var(--text-shadow-name);
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow:ellipsis;
@@ -17,27 +15,34 @@ body {
   background-color: var(--background-color);
 }
 
-/* Extension name stylesheet */
+/* Title stylesheet */
 h3  {
-  line-height: 1.5em;
+  line-height: 1.4em;
   text-align: inherit;
 }
 
 /* Link stylesheet */
 p {
+  text-shadow: var(--text-shadow-footer) !important;
   text-align: center;
   font-size: 12px;
 }
+
 a {
   color: var(--color);
   background-color: var(--background-color);
 }
 
 .header {
-  color: #2d8cff;
+  color: var(--name-addon-color);
   text-align: center;
   font-style: normal;
   font-size: 14px;
+}
+
+#addon-version  {
+  color: var(--name-addon-color);
+  text-decoration: none;
 }
 
 /* Checkbox stylesheet */
@@ -58,18 +63,18 @@ a {
   width: 20px;
   height: 20px;
   border-radius:50%;
-  background-color: white;
+  background-color: var(--button-color);
   top: 4.8px;
   left: 5px;
   transition: all 0.25s;
   box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.25);
 }
 .mycheckbox:checked + .switch::after {
+  box-shadow: var(--box-shadow);
   left : 36px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .mycheckbox:checked + .switch {
-  background-color: #2d8cff;
+  background-color: var(--icon-color-reference);
 }
 .mycheckbox {
   display : none;

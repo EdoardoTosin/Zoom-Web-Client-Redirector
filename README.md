@@ -67,9 +67,28 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ## Dashboard
 
-| ![Off](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off.png) | ![On](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on.png) |
-| :---: | :---: |
-| **Toggle Off** | **Toggle On (Default)** |
+<table>
+    <thead>
+        <tr>
+            <th colspan=2>Light Mode</th>
+            <th colspan=2>Dark Mode</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>Toggle Off</td>
+            <td>Toggle On<br>(Default)</td>
+            <td>Toggle Off</td>
+            <td>Toggle On<br>(Default)</td>
+        </tr>
+        <tr>
+          <td><img alt="Toggle Off - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off-light.png"></td>
+          <td><img alt="Toggle On - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on-light.png"></td>
+          <td><img alt="Toggle Off - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off-dark.png"></td>
+          <td><img alt="Toggle On - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on-dark.png"></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Zoom page example
 

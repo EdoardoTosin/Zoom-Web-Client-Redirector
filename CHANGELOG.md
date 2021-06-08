@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.8.1](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.1) - 2021-06-08
+
+### Changed
+
+- Improved dashboard text readability.
+- Commented test code inside toggle.js and redirect.js.
+
+### Added
+
+- Extension version now present on top of the title, inside the dashboard.
+
 ## [2.8.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.0) - 2021-05-26
 
 ### Fixed
