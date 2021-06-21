@@ -61,9 +61,25 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ## Installation
 
-| Mozilla Firefox Add-on | Chrome Web Store | Microsoft Edge |
-| :---: | :---: | :---: |
-| [![Mozilla Add-on](https://img.shields.io/amo/v/zoom-web-client-redirector?label=firefox&logo=Firefox&style=for-the-badge)](https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector) | [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ommndciompclncigoffdnipifnfnaclj?label=chrome&logo=google-chrome&style=for-the-badge)](https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj) | [![Microsoft Edge](https://img.shields.io/badge/dynamic/json?label=Edge%09%09&logo=microsoft-edge&style=for-the-badge&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn)](https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn) |
+<table>
+    <thead align="center">
+        <tr>
+            <th>Mozilla Firefox Add-on</th>
+            <th>Chrome Web Store</th>
+            <th>Microsoft Edge</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+          <td><a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
+         <img alt="Mozilla Firefox Add-on" src="https://img.shields.io/amo/v/zoom-web-client-redirector?label=firefox&logo=Firefox&style=for-the-badge"></a></td>
+          <td><a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
+          <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ommndciompclncigoffdnipifnfnaclj?label=chrome&logo=google-chrome&style=for-the-badge"></a></td>
+          <td><a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
+       <img alt="Microsoft Edge" src="https://img.shields.io/badge/dynamic/json?label=Edge%09%09&logo=microsoft-edge&style=for-the-badge&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn"></a></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Dashboard
 
