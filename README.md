@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="https://addons.mozilla.org/firefox/addon/zoom-web-client-redirector">
-    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/firefox.png" alt="Get Zoom WC Redirector for Firefox" height=80px></a>
+    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get Zoom WC Redirector for Firefox" height=80px></a>
   <a href="https://chrome.google.com/webstore/detail/zoom-web-client-redirecto/ommndciompclncigoffdnipifnfnaclj">
-    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/chrome.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
+    <img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="Get Zoom WC Redirector for Chromium" height=80px></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/kfpmepjfaolgcgabdmbpkfnicejbiggn">
-    <img src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/badges/edge.png" alt="Get Zoom WC Redirector for Microsoft Edge" height=80px></a>
+    <img src="https://developer.microsoft.com/en-us/microsoft-store/badges/images/English_get-it-from-MS.png" alt="Get Zoom WC Redirector for Microsoft Edge" height=80px></a>
 </p>
 
 <p align="center">
