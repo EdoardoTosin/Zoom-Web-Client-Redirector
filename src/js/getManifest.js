@@ -1,6 +1,6 @@
-var addonVersion = chrome.runtime.getManifest().version;
-var addonName = chrome.runtime.getManifest().name;
-var homePage = chrome.runtime.getManifest().homepage_url;
+const addonVersion = chrome.runtime.getManifest().version;
+const addonName = chrome.runtime.getManifest().name;
+const homePage = chrome.runtime.getManifest().homepage_url;
 
 // Load manifest data into popup.html when opened.
 document.addEventListener("DOMContentLoaded", function() {

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.8.2](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.2) - 2021-09-01
+
+### Changed
+
+- Changed variables inside getManifest.js to `const`.
+- Minor popup menu style changes.
+
 ## [2.8.1](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.1) - 2021-06-08
 
 ### Changed
