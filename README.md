@@ -122,12 +122,12 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 "permissions": [
   "storage",
   "*://*.zoom.us/*",
-  "*://*.zoomgov.us/*"
+  "*://*.zoomgov.com/*"
 ],
 ```
 
 - ``storage`` is used to store the status of the button that is present in the dashboard.  
-- ``*://*.zoom.us/*`` and ``*://*.zoomgov.us/*`` are necessary to get the url and modify it to redirect to the web client page.
+- ``*://*.zoom.us/*`` and ``*://*.zoomgov.com/*`` are necessary to get the url and modify it to redirect to the web client page.
 
 ## Release History
 

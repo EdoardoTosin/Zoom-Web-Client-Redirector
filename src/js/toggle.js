@@ -61,9 +61,11 @@ function saveOption() {
   else{
     setRedirectOff();
   }
+  /*
   storage.get("toggle", function(items) {
-  //console.log('Set to: ' + items.toggle);
+  console.log('Set to: ' + items.toggle);
   });
+  */
 };
 
 // If toggle change state it calls saveOption function.
