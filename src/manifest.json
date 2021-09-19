@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
   "short_name": "Zoom WC Red",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "author": "Edoardo Tosin",
   "description": "A web extension that redirects zoom meetings to the web client version.",
   "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
@@ -16,7 +16,7 @@
   "permissions": [
     "storage",
     "*://*.zoom.us/*",
-    "*://*.zoomgov.us/*"
+    "*://*.zoomgov.com/*"
   ],
   "background": {
     "page": "html/popup.html"
@@ -25,12 +25,12 @@
     {
       "exclude_matches": [
         "*://*.zoom.us/wc/join/*",
-        "*://*.zoomgov.us/wc/join/*",
+        "*://*.zoomgov.com/wc/join/*",
         "file://*/*"
       ],
       "matches": [
         "*://*.zoom.us/*",
-        "*://*.zoomgov.us/*"
+        "*://*.zoomgov.com/*"
       ],
       "js": [
         "js/toggle.js",
