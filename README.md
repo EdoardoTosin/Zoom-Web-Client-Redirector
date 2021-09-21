@@ -98,17 +98,17 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
             <td>Toggle On<br>(Default)</td>
         </tr>
         <tr>
-          <td><img alt="Toggle Off - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off-light.png"></td>
-          <td><img alt="Toggle On - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on-light.png"></td>
-          <td><img alt="Toggle Off - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/off-dark.png"></td>
-          <td><img alt="Toggle On - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/dashboard/on-dark.png"></td>
+          <td><img alt="Toggle Off - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/dashboard/off-light.png"></td>
+          <td><img alt="Toggle On - Light Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/dashboard/on-light.png"></td>
+          <td><img alt="Toggle Off - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/dashboard/off-dark.png"></td>
+          <td><img alt="Toggle On - Dark Mode" src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/dashboard/on-dark.png"></td>
         </tr>
     </tbody>
 </table>
 
 ## Zoom page example
 
-| ![Before](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/screenshots/before_no_text.png) | ![After](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/docs/screenshots/after_no_text.png) |
+| ![Before](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/screenshots/before_no_text.png) | ![After](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/screenshots/after_no_text.png) |
 | :---: | :---: |
 | **Before redirect** |**After redirect** |
 
