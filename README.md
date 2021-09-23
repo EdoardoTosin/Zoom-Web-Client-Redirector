@@ -108,7 +108,9 @@ When opening the dashboard there is a toggle to enable/disable the extension to 
 
 ## Zoom page example
 
-| ![Before](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/screenshots/before_no_text.png) | ![After](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/screenshots/after_no_text.png) |
+![Gif](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/example/redirect_clip.gif)
+
+| ![Before](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/example/before_no_text.png) | ![After](https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/assets/example/after_no_text.png) |
 | :---: | :---: |
 | **Before redirect** |**After redirect** |
 
