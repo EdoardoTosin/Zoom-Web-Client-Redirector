@@ -1,17 +1,21 @@
-const addonVersion = chrome.runtime.getManifest().version;
-const addonName = chrome.runtime.getManifest().name;
 const homePage = chrome.runtime.getManifest().homepage_url;
+const addonVersion = chrome.runtime.getManifest().version;
 
 // Load manifest data into popup.html when opened.
 document.addEventListener("DOMContentLoaded", function() {
   //console.log(addonName + ' v' + addonVersion);
-  
-  // Load addon name
-  document.getElementById("addon-name").innerHTML = (addonName.substr(0,8) + '<br>' + addonName.substr(9,26));
+
   // Load href links & version
   document.getElementById("changelog").href = homePage + '/blob/main/CHANGELOG.md';
   document.getElementById("issue-tracker").href = homePage + '/issues';
   document.getElementById("source-code").href = homePage;
-  document.getElementById("addon-version").innerHTML = ('v' + addonVersion);
-  document.getElementById("addon-version").href = homePage + '/releases/tag/v' + addonVersion;
+  document.getElementById("addon-version").textContent = ('v' + addonVersion);
 });
+
+// Open clickable links
+window.addEventListener('click',function(e){
+  if(e.target.href!==undefined /*&& e.target.class==="foot"*/){
+    chrome.tabs.create({url:e.target.href})
+    window.close();
+  }
+})

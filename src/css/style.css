@@ -9,16 +9,24 @@ body {
   padding-right: 10px;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   font-family: 'SFMono-Regular','Menlo','Monaco','Consolas',"Liberation Mono","Courier New",monospace;
   color: var(--color);
   background-color: var(--background-color);
 }
 
 /* Title stylesheet */
+.header {
+  color: var(--name-addon-color);
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+}
+
 h3  {
   line-height: 1.4em;
   text-align: inherit;
+  cursor: default;
 }
 
 /* Link stylesheet */
@@ -31,22 +39,28 @@ p {
 a {
   color: var(--color);
   background-color: var(--background-color);
+  transition: 0.15s linear;
 }
 
-.header {
-  color: var(--name-addon-color);
-  text-align: center;
-  font-style: normal;
-  font-size: 14px;
+.foot:hover {
+  color: var(--hover);
 }
 
-#addon-version  {
-  color: var(--name-addon-color);
-  text-decoration: none;
+.foot:active {
+  color: var(--click);
+}
+
+#addon-version {
+  color: var(--color);
+  background-color: var(--background-color);
+  text-decoration: none !important;
+  cursor: default;
 }
 
 /* Checkbox stylesheet */
 .switch {
+
+  cursor: pointer;
   left: 50%;
   margin-left: -30px;
   position: relative;
@@ -58,6 +72,7 @@ a {
   transition: all 0.25s;
 }
 .switch::after {
+
   content: '';
   position: absolute;
   width: 20px;
@@ -71,11 +86,12 @@ a {
 }
 .mycheckbox:checked + .switch::after {
   box-shadow: var(--box-shadow);
-  left : 36px;
+  left: 36px;
 }
 .mycheckbox:checked + .switch {
+  box-shadow: inset var(--checkbox-inner-shadow);
   background-color: var(--icon-color-reference);
 }
 .mycheckbox {
-  display : none;
+  display: none;
 }
