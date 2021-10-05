@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Open clickable links
 window.addEventListener('click',function(e){
-  if(e.target.href!==undefined /*&& e.target.class==="foot"*/){
+  if(e.target.href!==undefined){
     chrome.tabs.create({url:e.target.href})
     window.close();
   }
