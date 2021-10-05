@@ -116,7 +116,7 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 
 ## Permissions
 
-```
+``` json
 "permissions": [
   "storage",
   "*://*.zoom.us/*",
