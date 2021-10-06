@@ -37,6 +37,7 @@
         "js/redirect.js",
         "js/getManifest.js"
       ],
+      "run_at": "document_idle",
       "all_frames": false
     }
   ],
