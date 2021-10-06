@@ -1,0 +1,81 @@
+/* Title stylesheet */
+.header {
+  color: var(--name-addon-color);
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+}
+
+h3  {
+  line-height: 1.4em;
+  text-align: inherit;
+  margin-top: -0.2em;
+  cursor: default;
+}
+
+/* Link stylesheet */
+p {
+  text-shadow: var(--text-shadow-footer) !important;
+  text-align: center;
+  font-size: 12px;
+}
+
+a {
+  color: var(--color);
+  background-color: var(--background-color);
+  transition: 0.15s linear;
+}
+
+.foot:hover {
+  color: var(--hover);
+}
+
+.foot:active {
+  color: var(--click);
+}
+
+#addon-version {
+  color: var(--color);
+  background-color: var(--background-color);
+  text-decoration: none !important;
+  cursor: default;
+}
+
+/* Checkbox stylesheet */
+.switch {
+
+  cursor: pointer;
+  left: 50%;
+  margin-left: -30px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 30px;
+  transition: all 0.25s;
+}
+.switch::after {
+
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: var(--button-color);
+  top: 4.8px;
+  left: 5px;
+  transition: all 0.25s;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.25);
+}
+.mycheckbox:checked + .switch::after {
+  box-shadow: var(--box-shadow);
+  left: 36px;
+}
+.mycheckbox:checked + .switch {
+  box-shadow: inset var(--checkbox-inner-shadow);
+  background-color: var(--icon-color-reference);
+}
+.mycheckbox {
+  display: none;
+}

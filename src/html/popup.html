@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Zoom Web Client Redirector</title>
-    <meta charset="utf-8">
-    <meta name="description" content="A web extension that redirects zoom meetings to the web client version"/>
-    <meta name="author" content="Edoardo Tosin"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../js/style.js"></script>
-    <!-- Conditionally either load the light or the dark stylesheet. -->
-    <link rel="stylesheet" href="../css/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="../css/light.css" media="(prefers-color-scheme: light)">
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- Load version number and page links from manifest.json -->
-    <script type="text/javascript" src="../js/getManifest.js"></script>
-  </head>
-  <body>
-    <div class="header">
-      <h3>Zoom Web<br>Client Redirector</h3>
-    </div>
-    <script type="text/javascript" src="../js/toggle.js"></script>
-    <input type="checkbox" id="toggle" class="mycheckbox" value="checked"/>
-    <label for="toggle" class="switch"></label>
-  </body>
-  <footer>
-    <br>
-    <p><a class="foot" href="" id="changelog" title="Link to changelog page on Github.com">Changelog</a></p>
-    <p><a class="foot" href="" id="issue-tracker" title="Link to issue tracker page on Github.com">Issue tracker</a></p>
-    <p><a class="foot" href="" id="source-code" title="Link to source code page on Github.com">Source code</a></p>
-    <p id="addon-version" title="Version currently installed"></p>
-  </footer>
+
+<head>
+  <title>Zoom Web Client Redirector</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A web extension that redirects zoom meetings to the web client version" />
+  <meta name="author" content="Edoardo Tosin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../js/98494677b2.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/style.js"></script>
+  <!-- Conditionally either load the light or the dark stylesheet. -->
+  <link rel="stylesheet" href="../css/dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="../css/light.css" media="(prefers-color-scheme: light)">
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body>
+  <link rel="stylesheet" href="../css/popup.css">
+  <script type="text/javascript" src="../js/content_script.js"></script>
+  <script type="text/javascript" src="../js/popup.js"></script>
+  <div class="top">
+    <button id="optionPage" class="btn" title="Settings"><i class="fas fa-cog"></i></button>
+    <button id="infoPage" class="btn" title="Info" href="../html/info.html" target="_blank"><i class="fas fa-info"></i></button>
+  </div>
+  <div class="header">
+    <h3>Zoom Web<br>Client Redirector</h3>
+  </div>
+  <input type="checkbox" id="toggle" class="mycheckbox" value="checked" />
+  <label for="toggle" class="switch" id="switch-btn" title=""></label>
+</body>
+
+<footer>
+  <br>
+  <p><a class="foot" href="" id="changelog" title="Link to changelog page on Github.com">Changelog</a></p>
+  <p><a class="foot" href="" id="issue-tracker" title="Link to issue tracker page on Github.com">Issue tracker</a></p>
+  <p><a class="foot" href="" id="source-code" title="Link to source code page on Github.com">Source code</a></p>
+  <p id="addon-version" title="Version currently installed"></p>
+</footer>
+
 </html>

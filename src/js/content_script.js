@@ -1,9 +1,11 @@
+// Storage call macro
 var storage = chrome.storage.sync;
 if (!storage) storage = chrome.storage.local;
 
 // Change Icon, Toggle and chrome.storage to true/on.
 function setRedirectOn(){
   storage.set({'toggle': "true"});
+  document.getElementById('switch-btn').setAttribute("title","Enabled");
   document.getElementById('toggle').setAttribute("checked","");
   chrome.browserAction.setIcon({
       path: {
@@ -20,6 +22,7 @@ function setRedirectOn(){
 // Change Icon, Toggle and chrome.storage to false/off.
 function setRedirectOff(){
   storage.set({'toggle': "false"});
+  document.getElementById('switch-btn').setAttribute("title","Disabled");
   document.getElementById('toggle').removeAttribute("checked");
   chrome.browserAction.setIcon({
       path: {

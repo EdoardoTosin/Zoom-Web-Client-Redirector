@@ -1,0 +1,42 @@
+/* Title stylesheet */
+.header {
+  color: var(--name-addon-color);
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+}
+
+h3  {
+  line-height: 1.4em;
+  text-align: inherit;
+  margin-top: -0.2em;
+  cursor: default;
+}
+
+/* Link stylesheet */
+p {
+  text-shadow: var(--text-shadow-footer) !important;
+  text-align: center;
+  font-size: 12px;
+}
+
+a {
+  color: var(--color);
+  background-color: var(--background-color);
+  transition: 0.15s linear;
+}
+
+.foot:hover {
+  color: var(--hover);
+}
+
+.foot:active {
+  color: var(--click);
+}
+
+#addon-version {
+  color: var(--color);
+  background-color: var(--background-color);
+  text-decoration: none !important;
+  cursor: default;
+}

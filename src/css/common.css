@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light dark;
+}
+
+/* Common body stylesheet */
+body {
+  text-shadow: var(--text-shadow-name);
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: 'SFMono-Regular','Menlo','Monaco','Consolas',"Liberation Mono","Courier New",monospace;
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+/* Div button stylesheet */
+.top {
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  display: flex;
+  justify-content: right;
+}
+
+/* Button stylesheet */
+.btn {
+  line-height: 0.2em;
+  padding: none !important;
+  width: 1.44em;
+  background-color: transparent;
+  border: none;
+  color: var(--color);
+  padding: 4px 4px;
+  margin: 4px 2px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2em;
+  transition: 0.15s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  color: var(--hover);
+}
+
+.btn:active {
+  transition: none;
+  color: var(--click);
+}
