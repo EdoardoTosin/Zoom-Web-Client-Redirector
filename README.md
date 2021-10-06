@@ -125,7 +125,7 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 ],
 ```
 
-- ``tabs`` is necessary to be able to open hyperlinks in the dashboard.
+- ``atciveTab`` is necessary to be able to open hyperlinks in the dashboard.
 - ``storage`` is used to store the status of the slide checkbox.  
 - ``*://*.zoom.us/*`` and ``*://*.zoomgov.com/*`` are necessary to get the url and modify it to redirect to the web client page.
 
