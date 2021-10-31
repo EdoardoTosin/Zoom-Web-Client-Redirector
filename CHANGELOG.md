@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.8.4](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.4) - 2021-10-xx
+## [2.8.4](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.4) - 2021-10-31
 
 ### Changed
 
