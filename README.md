@@ -118,13 +118,15 @@ Zoom Web Client Redirector does **NOT** collect any data of any kind.
 
 ``` json
 "permissions": [
+  "activeTab",
   "storage",
   "*://*.zoom.us/*",
   "*://*.zoomgov.com/*"
 ],
 ```
 
-- ``storage`` is used to store the status of the button that is present in the dashboard.  
+- ``activeTab`` is necessary to be able to open hyperlinks in the dashboard.
+- ``storage`` is used to store the status of the slide checkbox.  
 - ``*://*.zoom.us/*`` and ``*://*.zoomgov.com/*`` are necessary to get the url and modify it to redirect to the web client page.
 
 ## Release History
