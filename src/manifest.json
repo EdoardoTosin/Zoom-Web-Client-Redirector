@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Zoom Web Client Redirector",
   "short_name": "Zoom WC Red",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "author": "Edoardo Tosin",
   "description": "A web extension that redirects zoom meetings to the web client version.",
   "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
