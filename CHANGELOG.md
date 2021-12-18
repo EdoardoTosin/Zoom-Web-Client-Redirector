@@ -4,14 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.9.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.9.0) - 2021-xx-xx
+## [2.10.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.10.0) - 202x-xx-xx
 
 ### Changed
 
 - Split dashboard into multiple pages accessible from the icons on top-right.
 - More granular setup of extension behaviour.
 
-## [2.8.4](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.4) - 2021-10-xx
+## [2.9.0](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.9.0) - 202x-xx-xx
+
+### Added
+
+- New content-blocking feature for blocking the cookie request.
+
+## [2.8.4](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/tree/v2.8.4) - 2021-10-31
 
 ### Changed
 
