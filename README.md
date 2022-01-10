@@ -15,6 +15,11 @@
 </p>
 
 <p align="center">
+  <img alt="Firefox users" src="https://img.shields.io/amo/users/zoom-web-client-redirector?label=Firefox%20Users&style=for-the-badge&logo=firefox"/>
+  <img alt="Chrome users" src="https://img.shields.io/chrome-web-store/users/ommndciompclncigoffdnipifnfnaclj?label=Chrome%20Users&style=for-the-badge&logo=google"/>
+  <img alt="Edge users" src="https://img.shields.io/badge/dynamic/json?label=Edge%20Users&style=for-the-badge&logo=microsoft-edge&query=activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn">
+</p>
+<p align="center">
   <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/EdoardoTosin/Zoom-Web-Client-Redirector?include_prereleases&label=GitHub&logo=GitHub&style=for-the-badge"/>
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/edoardotosin/Zoom-Web-Client-Redirector?style=for-the-badge"/>
   <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/edoardotosin/Zoom-Web-Client-Redirector/total?style=for-the-badge"/>
