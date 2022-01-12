@@ -16,7 +16,7 @@
 
 <p align="center">
   <img alt="Firefox users" src="https://img.shields.io/amo/users/zoom-web-client-redirector?label=Firefox%20Users&style=for-the-badge&logo=firefox"/>
-  <img alt="Chrome users" src="https://img.shields.io/chrome-web-store/users/ommndciompclncigoffdnipifnfnaclj?label=Chrome%20Users&style=for-the-badge&logo=google"/>
+  <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/ommndciompclncigoffdnipifnfnaclj?color=007ec6&label=Chrome%20Users&logo=google-chrome&style=for-the-badge">
   <img alt="Edge users" src="https://img.shields.io/badge/dynamic/json?label=Edge%20Users&style=for-the-badge&logo=microsoft-edge&query=activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fkfpmepjfaolgcgabdmbpkfnicejbiggn">
 </p>
 <p align="center">
