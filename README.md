@@ -1,3 +1,7 @@
+| **:warning: WARNING** |
+|:---------------------------:|
+| **Due to a reported trademark infringement the web extension might not be available. I have already contacted the other party to get this issue resolved as soon as possible.** |
+
 <h1 align="center">
   <sub>
     <img  src="https://raw.githubusercontent.com/EdoardoTosin/Zoom-Web-Client-Redirector/main/src/icons/256x256.png" height="38" width="38">
@@ -24,7 +28,6 @@
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/edoardotosin/Zoom-Web-Client-Redirector?style=for-the-badge"/>
   <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/edoardotosin/Zoom-Web-Client-Redirector/total?style=for-the-badge"/>
 </p>
-
 
 ## Table of contents
 
