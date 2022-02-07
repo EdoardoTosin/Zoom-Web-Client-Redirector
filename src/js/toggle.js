@@ -2,8 +2,9 @@ var storage = chrome.storage.sync;
 if (!storage) storage = chrome.storage.local;
 
 // Change Icon, Toggle and chrome.storage to true/on.
-function setRedirectOn(){
+function setRedirectorOn(){
   storage.set({'toggle': "true"});
+  document.getElementsByClassName("switch")[0].title = "Enabled";
   document.getElementById('toggle').setAttribute("checked","");
   chrome.browserAction.setIcon({
       path: {
@@ -18,8 +19,9 @@ function setRedirectOn(){
 };
 
 // Change Icon, Toggle and chrome.storage to false/off.
-function setRedirectOff(){
+function setRedirectorOff(){
   storage.set({'toggle': "false"});
+  document.getElementsByClassName("switch")[0].title = "Disabled";
   document.getElementById('toggle').removeAttribute("checked");
   chrome.browserAction.setIcon({
       path: {
@@ -37,7 +39,7 @@ function setRedirectOff(){
 chrome.storage.sync.get('toggle', function(items) {
   var toggle = items.toggle;
   if (typeof toggle === "undefined") {
-    setRedirectOn();
+    setRedirectorOn();
   }
 });
 
@@ -46,9 +48,9 @@ document.body.onload = function() {
   storage.get("toggle", function(items) {
     //console.log('Load to: ' + items.toggle);
     if (items.toggle!='undefined' && items.toggle=="false")
-      setRedirectOff();
+      setRedirectorOff();
     else {
-      setRedirectOn();
+      setRedirectorOn();
     }
   });
 }
@@ -56,10 +58,10 @@ document.body.onload = function() {
 // Change chrome.storage "toggle" value and extension icon when checkbox change state.
 function saveOption() {
   if (document.getElementById('toggle').checked){
-    setRedirectOn();
+    setRedirectorOn();
   }
   else{
-    setRedirectOff();
+    setRedirectorOff();
   }
   /*
   storage.get("toggle", function(items) {

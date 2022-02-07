@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Zoom Web Client Redirector",
-  "short_name": "Zoom WC Red",
-  "version": "2.8.5",
+  "name": "ZooM-WC Redirector",
+  "short_name": "ZooM-WC Red",
+  "version": "2.8.6",
   "author": "Edoardo Tosin",
-  "description": "A web extension that redirects zoom meetings to the web client version.",
-  "homepage_url": "https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector",
+  "description": "A web extension that redirects meetings to the web client.",
+  "homepage_url": "https://github.com/EdoardoTosin/ZooM-WC-Redirector",
   "icons": {
     "16": "icons/16x16.png",
     "32": "icons/32x32.png",
@@ -52,7 +52,7 @@
       "128": "icons/128x128.png",
       "256": "icons/256x256.png"
     },
-    "default_title": "Zoom Web Client Redirector",
+    "default_title": "ZooM-WC Redirector",
     "default_popup": "html/popup.html"
   },
   "browser_specific_settings": {

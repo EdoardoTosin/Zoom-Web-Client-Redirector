@@ -4,10 +4,10 @@
 
 Versions currently being supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| [2.8.5](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/releases/tag/v2.8.5)   | :white_check_mark: |
-| [<=2.8.4](https://github.com/EdoardoTosin/Zoom-Web-Client-Redirector/releases/tag/v2.8.4)  | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| [2.8.5](https://github.com/EdoardoTosin/ZooM-WC-Redirector/releases/tag/v2.8.6) | :white_check_mark: |
+| [<=2.8.4](https://github.com/EdoardoTosin/ZooM-WC-Redirector/releases/tag/v2.8.5) | :x: |
 
 ## Reporting a Vulnerability
 
