@@ -1,6 +1,6 @@
-| **:warning: WARNING** |
-|:---------------------------:|
-| **Due to a reported trademark infringement the web extension might not be available. I have already contacted the other party to get this issue resolved as soon as possible.** |
+> **:warning: WARNING**
+> 
+> **This repo has been archived due to a trademark issue. The the new repository can be found [here](https://github.com/EdoardoTosin/ZooMeeting-Redirector)**
 
 <h1 align="center">
   <sub>
