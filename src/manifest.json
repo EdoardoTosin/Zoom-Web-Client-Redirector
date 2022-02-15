@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ZooMeeting Redirector",
   "short_name": "ZooM-WC Red",
-  "version": "2.8.6",
+  "version": "3.0.0",
   "author": "Edoardo Tosin",
   "description": "A web extension that redirects meetings to the web client.",
   "homepage_url": "https://github.com/EdoardoTosin/ZooMeeting-Redirector",

@@ -4,14 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.8.6](https://github.com/EdoardoTosin/ZooMeeting-Redirector/tree/v2.8.6) - 2022-02-xx
+## [3.0.0](https://github.com/EdoardoTosin/ZooMeeting-Redirector/tree/v3.0.0) - 2022-02-xx
 
 ## Changed
 
-- Removed any reference to the original company's name due to trademark issue.
-- Improved matching meeting url
-- Added "Enable/Disabled" info to toggle switch when hovering
-- Changed repository name and relative page links
+- Changed extension name due to a trademark issue.
+- Improved matching meeting url.
+- Added "Enable/Disabled" info to toggle switch when hovering.
+- Changed repository name and relative page links.
 
 ## [2.8.5](https://github.com/EdoardoTosin/ZooMeeting-Redirector/tree/v2.8.5) - 2022-01-10
 

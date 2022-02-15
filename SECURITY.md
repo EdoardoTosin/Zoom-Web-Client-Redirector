@@ -6,8 +6,8 @@ Versions currently being supported with security updates.
 
 | Version | Supported |
 | ------- | --------- |
-| [2.8.5](https://github.com/EdoardoTosin/ZooMeeting-Redirector/releases/tag/v2.8.6) | :white_check_mark: |
-| [<=2.8.4](https://github.com/EdoardoTosin/ZooMeeting-Redirector/releases/tag/v2.8.5) | :x: |
+| [3.0.0](https://github.com/EdoardoTosin/ZooMeeting-Redirector/releases/tag/v3.0.0) | :white_check_mark: |
+| [<=2.8.6](https://github.com/EdoardoTosin/ZooMeeting-Redirector/releases/tag/v2.8.6) | :x: |
 
 ## Reporting a Vulnerability
 
